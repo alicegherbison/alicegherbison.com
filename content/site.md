@@ -1,6 +1,4 @@
 +++
-type = "static"
-page = "static/single.html"
 description = "Site"
 +++
 <header>

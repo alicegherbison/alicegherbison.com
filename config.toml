@@ -1,3 +1,11 @@
 baseURL = "http://alicegherbison.com/"
-languageCode = "en-gb"
+defaultContentLanguage = "en"
+languageCode = "en"
 title = "Alice G Herbison"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[languages]
+	[languages.en]
+		title = "Alice G Herbison"
+		weight = 1
+		languageName = "English"
