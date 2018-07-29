@@ -18,11 +18,11 @@ description = "Site"
 			<li><s>Version controlled with Git</s></li>
 			<li><s>Something statically generated (<a href="https://gohugo.io" target="_blank">Hugo</a>?)</s></li>
 			<li><s>Stored on <a href="https://www.github.com/alicegherbison" target="_blank">GitHub</a></s></li>
-			<li>Served via a CDN (<a href="https://www.netlify.com" target="_blank">Netlify</a>?)</li>
+			<li><s>Served via a CDN (<a href="https://www.netlify.com" target="_blank">Netlify</a>)</s></li>
+			<li><s>Served over HTTPS</s></li>
 			<li>Using SASS</li>
 			<li>Built with a pipeline tool (<a href="https://gulpjs.com" target="_blank">Gulp</a>?)</li>
-			<li>Served over HTTPS</li>
 		</ul>
 		<h2>Reality</h2>
-		<p>A botched job of Hugo-rendered files uploaded individually via cPanel, but backed up with Git. Domain and hosting by <a href="https://hostpresto.com/my/aff.php?aff=289">Hostpresto</a>, written in <a href="https://www.sublimetext.com">Sublime Text</a>.</p>
+		<p>Successfully deployed from GitHub to Netlify, domain by <a href="https://hostpresto.com/my/aff.php?aff=289">Hostpresto</a>. Written in <a href="https://www.sublimetext.com">Sublime Text</a>.</p>
 	</main>
