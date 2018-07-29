@@ -6,16 +6,17 @@ description = "Now"
 	</header>
 	<main>
 		<h1>Now</h1>
-		<p><em>Last updated: Saturday, 2nd June 2018</em></p>
+		<p><em>Last updated: Sunday, 29th July 2018</em></p>
 		<h2>Online</h2>
 		<ul>
 			<li>working a little each week on this site</li>
-			<li>helping the wonderful <a href="https://www.rura.co.uk" target="_blank">RURA</a> with their website for the launch of their new album</li>
 		</ul>
 		<h2>Offline</h2>
 		<ul>
-			<li>preparing to sit the Level 2 Fitness Instructor (Exercise to Music) qualification</li>
-			<li>trying to stop getting injured and hold down a gym routine</li>
+			<li>finishing Level 2 Fitness Instructor (Exercise to Music) qualification</li>
+			<li>focusing on strengthening legs in the gym</li>
+			<li>increasing running distance (currently ~3k comfortably)</li>
 			<li>learning Korean (<span lang="ko">안녕하세요</span>!)</li>
 		</ul>
+		<p>This page is inspired by the <a href="https://nownownow.com/about" target="_blank">Now Project</a>.
 	</main>

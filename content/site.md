@@ -6,7 +6,7 @@ description = "Site"
 	</header>
 	<main>
 		<h1>About this site</h1>
-		<p><em>Last updated: Saturday, 16th June 2018</em></p>
+		<p><em>Last updated: Sunday, 29th July 2018</em></p>
 		<p>Even though this site is tiny without much content at the moment, I want every design and code decision I make to meet the following two principles:</p>
 		<ol>
 			<li>Lean and fast as possible - no unnecessary frameworks or third-party scripts, and no design decisions that contradict this</li>
@@ -16,8 +16,8 @@ description = "Site"
 		<h2>Goal</h2>
 		<ul>
 			<li><s>Version controlled with Git</s></li>
-			<li>Stored on <a href="https://www.github.com" target="_blank">GitHub</a></li>
-			<li>Something statically generated (<a href="https://gohugo.io" target="_blank">Hugo</a>?)</li>
+			<li><s>Something statically generated (<a href="https://gohugo.io" target="_blank">Hugo</a>?)</s></li>
+			<li><s>Stored on <a href="https://www.github.com/alicegherbison" target="_blank">GitHub</a></s></li>
 			<li>Served via a CDN (<a href="https://www.netlify.com" target="_blank">Netlify</a>?)</li>
 			<li>Using SASS</li>
 			<li>Built with a pipeline tool (<a href="https://gulpjs.com" target="_blank">Gulp</a>?)</li>
