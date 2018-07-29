@@ -16,7 +16,7 @@ description = "Site"
 		<h2>Goal</h2>
 		<ul>
 			<li><s>Version controlled with Git</s></li>
-			<li><s>Something statically generated (<a href="https://gohugo.io" target="_blank">Hugo</a>?)</s></li>
+			<li><s>Something statically generated (<a href="https://gohugo.io" target="_blank">Hugo</a>)</s></li>
 			<li><s>Stored on <a href="https://www.github.com/alicegherbison" target="_blank">GitHub</a></s></li>
 			<li><s>Served via a CDN (<a href="https://www.netlify.com" target="_blank">Netlify</a>)</s></li>
 			<li><s>Served over HTTPS</s></li>
