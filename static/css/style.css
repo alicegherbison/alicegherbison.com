@@ -1,10 +1,63 @@
+/* document */
+html {
+	font-size: 62.5%;
+}
+
+/* sectioning & structuring */
 body {
 	font-family: serif;
 	border-top: 8px solid #000;
-	font-size: 18px;
-	padding: 0 17px;
+	font-size: 1.8rem;
+	line-height: 1.8;
 }
 
+header, main {
+	max-width: 470px;
+	padding: 0 1.8rem;
+}
+
+header {
+	margin: 1.8rem auto 0 auto;
+}
+
+main {
+	margin: 4rem auto;
+}
+
+/* headings */
+h1 {
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2.4rem;
+	margin-top: 1.8rem;
+}
+
+/* text & lists */
+p, ul, ol {
+	margin-top: 1.8rem;
+}
+
+h1:first-child, h2:first-child, p:first-child, ol:first-child, ul:first-child, li:first-child {
+	margin-top: 0;
+}
+
+ul {
+	list-style: circle inside;
+}
+
+ol {
+	list-style: decimal inside;
+}
+
+li {
+margin-top: 0.8rem;
+}
+
+/* phrasing */
 a {
 	font-weight: bold;
 	color: #dd1c90;
@@ -26,61 +79,21 @@ header a:hover {
 	cursor: w-resize;
 }
 
-header, main {
-	max-width: 470px;
-}
-
-header {
-	margin: 0 auto;
-}
-
-main {
-	margin: 30px auto;
-}
-
-header {
-	margin-top: 20px;
-}
-
-h1 {
+strong {
 	font-weight: bold;
-	font-size: 40px;
-	padding: 20px 0;
-}
-
-h2 {
-	font-weight: bold;
-	font-size: 25px;
-	padding: 10px 0;
-}
-
-p {
-	padding: 10px 0;
-	line-height: 28px;
-}
-
-li {
-padding: 5px 0;
-list-style: circle inside;
-line-height: 28px;
-}
-
-li:last-child {
-	margin-bottom:10px;
-}
-
-ol, ul {
-	padding: 5px 0;
 }
 
 em {
 	font-style: italic;
 }
 
-strong {
-	font-weight: bold;
-}
-
+/* misc */
 :lang(ko){
 font-family: sans-serif;
+}
+
+::selection {
+background-color: #ffee00;
+color: #000000;
+text-shadow: none;
 }
