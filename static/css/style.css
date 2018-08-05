@@ -1,0 +1,90 @@
+body {
+	font-family: serif;
+	border-top: 8px solid #000;
+	font-size: 18px;
+	padding: 0 17px;
+}
+
+a {
+	font-weight: bold;
+	color: #dd1c90;
+}
+
+a:visited {
+	color: #f46003;
+}
+
+a:hover {
+	color: #1c56dd;
+	text-decoration: none;
+	cursor: e-resize;
+}
+
+a[href^="http://"]:not([href*="alicegherbison.com"]):hover,
+a[href^="https://"]:not([href*="alicegherbison.com"]):hover {
+    cursor: ne-resize;
+    color: #1faa22;
+}
+
+header a:hover {
+	cursor: w-resize;
+}
+
+header, main {
+	max-width: 470px;
+}
+
+header {
+	margin: 0 auto;
+}
+
+main {
+	margin: 30px auto;
+}
+
+header {
+	margin-top: 20px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 40px;
+	padding: 20px 0;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px 0;
+}
+
+p {
+	padding: 10px 0;
+	line-height: 28px;
+}
+
+li {
+padding: 5px 0;
+list-style: circle inside;
+line-height: 28px;
+}
+
+li:last-child {
+	margin-bottom:10px;
+}
+
+ol, ul {
+	padding: 5px 0;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+:lang(ko){
+font-family: sans-serif;
+}

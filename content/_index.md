@@ -3,8 +3,8 @@ type = "page"
 description = "Alice G Herbison"
 +++
 	<main>
-		<h1>Hello</h1>
-		<p>I'm Alice, a user experience designer based in Edinburgh, Scotland.</p>
+		<h1>Hello <span role="img" aria-label="wave">👋</span></h1>
+		<p>I'm <strong>Alice</strong>, a <strong>user experience designer</strong> based in Edinburgh, Scotland.</p>
 		<p>My work covers:</p>
 		<ul>
 			<li>defining information architecture and site structure</li>
