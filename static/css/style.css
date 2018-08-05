@@ -10,10 +10,6 @@ a {
 	color: #dd1c90;
 }
 
-a:visited {
-	color: #f46003;
-}
-
 a:hover {
 	color: #1c56dd;
 	text-decoration: none;
