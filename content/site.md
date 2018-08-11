@@ -1,9 +1,10 @@
 +++
 description = "Site"
 +++
+
 {{< h1-emoji h1="About this site" label="computer" emoji="💻" >}}
 
-*Last updated: Sunday, 5th August 2018*
+*Last build: {{< build-date >}}*
 
 Even though my website is tiny without much content at the moment, I want every design and code decision to meet the following two principles:
 

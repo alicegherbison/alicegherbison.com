@@ -1,6 +1,7 @@
 +++
 description = "Privacy"
 +++
+
 {{< h1-emoji h1="Privacy" label="eyes" emoji="👀" >}}
 
 This website uses Google Analytics, deployed via Google Tag Manager, to understand how visitors browse this site through metrics such as page hits, landing pages, and referrer information.
