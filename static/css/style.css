@@ -69,8 +69,8 @@ a:hover {
 	cursor: e-resize;
 }
 
-a[href^="http://"]:not([href*="alicegherbison.com"]):hover,
-a[href^="https://"]:not([href*="alicegherbison.com"]):hover {
+a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
+a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
     cursor: ne-resize;
     color: #1faa22;
 }
