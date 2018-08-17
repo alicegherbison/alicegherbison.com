@@ -17,12 +17,13 @@ This is also a learning exercise to deepen my own understanding of web best prac
 
 * ~~Version controlled with Git~~
 * ~~Something statically generated~~
-* ~~Stored on <a href="https://www.github.com/alicegherbison" target="_blank">GitHub</a>~~
+* ~~Stored on [GitHub](https://www.github.com/alicegherbison)~~
 * ~~Served via a CDN~~
 * ~~Served over HTTPS~~
 * Using SASS ~~(has some CSS)~~
-* Built with a pipeline tool (<a href="https://gulpjs.com" target="_blank">Gulp</a>?)
+* Minifying *all the things*
+* Built with a pipeline tool ([Gulp](https://gulpjs.com)?)
 
 ## Reality
 
-Built using <a href="https://gohugo.io" target="_blank">Hugo</a>. <a href="https://github.com/alicegherbison/alicegherbison.com" target="_blank">Source code</a> on GitHub &amp; deployed via <a href="https://www.netlify.com" target="_blank">Netlify</a>. Domain by <a href="https://hostpresto.com/my/aff.php?aff=289">Hostpresto</a>.
+Built using [Hugo](https://gohugo.io). [Source code](https://github.com/alicegherbison/alicegherbison.com) on GitHub &amp; deployed via [Netlify](https://www.netlify.com). Domain by [Hostpresto](https://hostpresto.com/my/aff.php?aff=289).

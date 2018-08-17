@@ -16,6 +16,6 @@ My work covers:
 
 I'm learning some new skills and re-building this website from the ground up.
 
-You can [find out more about this site]({{< ref "site.md" >}}) and some of the principles behind it, [read about what I'm up to at the moment]({{< ref "now.md" >}}), or [check out the privacy policy]({{< ref "privacy.md" >}}).
+You can [find out more about this site](/site/) and some of the principles behind it, [read about what I'm up to at the moment](/now/), or [check out the privacy policy](/privacy/).
 
-I'm on <a href="https://www.twitter.com/alicegherbison" target="_blank">Twitter</a> and reachable by email - hello [at] alicegherbison.com
+I'm on [Twitter](https://www.twitter.com/alicegherbison) and reachable by email - hello [at] alicegherbison.com

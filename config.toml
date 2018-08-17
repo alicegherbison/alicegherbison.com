@@ -9,3 +9,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 		title = "Alice G Herbison"
 		weight = 1
 		languageName = "English"
+
+[blackfriday]
+ 	plainIDAnchors = true
+ 	hrefTargetBlank = true
