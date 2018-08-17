@@ -2,7 +2,7 @@
 description = "Now"
 +++
 
-{{< h1-emoji h1="Now" label="timer" emoji="🔥" >}}
+{{< h1-emoji h1="Now" label="fire" emoji="🔥" >}}
 
 *Last updated: {{< date >}}*
 
@@ -17,6 +17,6 @@ description = "Now"
 * increasing running distance (currently ~4k comfortably)
 * dancing as much as possible
 * enjoying the Edinburgh Festival Fringe
-* learning Korean (<span lang="ko">안녕하세요</span>!)
+* learning Korean ({{< lang code="ko" text="안녕하세요" >}}!)
 
 This page is inspired by the <a href="https://nownownow.com/about" target="_blank">Now Project</a>.
