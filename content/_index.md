@@ -16,6 +16,6 @@ My work covers:
 
 I'm learning some new skills and re-building this website from the ground up.
 
-You can <a href='{{< ref "site.md" >}}'>find out more about this site</a> and some of the principles behind it, <a href='{{< ref "now.md" >}}'>read about what I'm up to at the moment</a>, or <a href='{{< ref "privacy.md" >}}'>check out the privacy policy</a>.
+You can [find out more about this site]({{< ref "site.md" >}}) and some of the principles behind it, [read about what I'm up to at the moment]({{< ref "now.md" >}}), or [check out the privacy policy]({{< ref "privacy.md" >}}).
 
 I'm on <a href="https://www.twitter.com/alicegherbison" target="_blank">Twitter</a> and reachable by email - hello [at] alicegherbison.com
