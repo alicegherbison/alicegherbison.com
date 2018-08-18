@@ -21,7 +21,8 @@ This is also a learning exercise to deepen my own understanding of web best prac
 * ~~Served via a CDN~~
 * ~~Served over HTTPS~~
 * Using SASS ~~(has some CSS)~~
-* Minifying *all the things*
+* Everything properly minified
+* All images compressed
 * Built with a pipeline tool ([Gulp](https://gulpjs.com)?)
 
 ## Reality
