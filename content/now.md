@@ -9,7 +9,7 @@ description = "Now"
 ## Online
 * working a little each week on this site
 * practising building some page templates of designs from [Dribbble](https://dribbble.com/)
-* completing Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days (on day 1 - [follow progress on my demo site](https://alicegherbison.github.com/javascript30))
+* completing Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days (on day 1 - [follow progress on my demo site](https://alicegherbison.github.io/javascript30))
 
 ## Offline
 
