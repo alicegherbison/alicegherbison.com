@@ -9,12 +9,12 @@ description = "Now"
 ## Online
 * working a little each week on this site
 * practising building some page templates of designs from [Dribbble](https://dribbble.com/)
-* completing Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days (on day 1 - [follow progress on my demo site](https://alicegherbison.github.io/javascript30))
+* completing Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days (on day 2 - [follow progress on my demo site](https://alicegherbison.github.io/javascript30))
 
 ## Offline
 
-* focusing on strength training, especially legs
-* increasing running distance (currently ~4k comfortably)
+* focusing on stretching & flexibility
+* increasing running distance (currently ~2k comfortably)
 * dancing as much as possible
 * learning Korean ({{< lang code="ko" text="안녕하세요" >}}!)
 
