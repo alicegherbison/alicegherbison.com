@@ -4,6 +4,11 @@ languageCode = "en"
 title = "Alice G Herbison"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+[params]
+	author = "Alice G Herbison"
+	description = "Website of Alice G Herbison, user experience designer based in Edinburgh, Scotland."
+	tags = "ux, design, html, css, javascript"
+
 [languages]
 	[languages.en]
 		title = "Alice G Herbison"

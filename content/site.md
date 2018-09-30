@@ -1,8 +1,9 @@
 +++
-description = "Site"
+title = "About this site"
+[emoji]
+	icon = "💻"
+	label = "computer"
 +++
-
-{{< h1-emoji h1="About this site" label="computer" emoji="💻" >}}
 
 *Last build: {{< build-date >}}*
 
