@@ -16,7 +16,7 @@ This is also a learning exercise to deepen my own understanding of web best prac
 
 ## Goal
 
-* ~~Version controlled with Git~~
+* ~~Version controlled with Git~~ ~~(using Git Flow)~~
 * ~~Something statically generated~~
 * ~~Stored on [GitHub](https://www.github.com/alicegherbison)~~
 * ~~Served via a CDN~~
