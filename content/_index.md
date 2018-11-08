@@ -7,11 +7,12 @@ title = "Hello"
 
 I'm **Alice**, a **user experience designer** based in Edinburgh, Scotland.
 
-My work covers:
+I'm skilled in:
 
 * defining information architecture and site structure
 * content strategy and CMS planning
-* prototyping interfaces and running usability tests
+* prototyping in code 
+* running usability tests
 * conducting primary user research and interviews
 
 I've rebuilt this website from scratch using [Hugo](https://gohugo.io/).
