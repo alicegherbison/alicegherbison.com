@@ -22,10 +22,9 @@ This is also a learning exercise to deepen my own understanding of web best prac
 * ~~Served via a CDN~~
 * ~~Served over HTTPS~~
 * Using SASS ~~(has some CSS)~~
-* Everything properly minified
-* All images compressed
-* Built with a pipeline tool ([Gulp](https://gulpjs.com)?)
+* ~~Everything properly minified~~
+* ~~Built with a pipeline tool~~
 
 ## Reality
 
-Built using [Hugo](https://gohugo.io). [Source code](https://github.com/alicegherbison/alicegherbison.com) on GitHub &amp; deployed via [Netlify](https://www.netlify.com). Domain by [Hostpresto](https://hostpresto.com/my/aff.php?aff=289).
+Built using [Hugo](https://gohugo.io) {{< version >}} and Hugo Pipes for CSS minification. [Source code](https://github.com/alicegherbison/alicegherbison.com) on GitHub &amp; deployed via [Netlify](https://www.netlify.com). Domain by [Hostpresto](https://hostpresto.com/my/aff.php?aff=289).
