@@ -18,4 +18,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [blackfriday]
  	plainIDAnchors = true
  	hrefTargetBlank = true
-	nofollowLinks = true
+	noreferrerLinks = true
