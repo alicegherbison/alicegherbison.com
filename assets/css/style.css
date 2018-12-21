@@ -1,3 +1,11 @@
+:root {
+	--black: #000000;
+	--magenta: #dd1c90;
+	--yellow: #ffee00;
+	--green: #1faa22;
+	--blue: #1c56dd;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -16,12 +24,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	vertical-align: baseline;
 	margin: 0;
-	padding: 0;
 	border: 0;
+	padding: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -54,14 +62,14 @@ html {
 
 /* sectioning & structuring */
 body {
-	font-family: serif;
-	border-top: 8px solid #000;
+	border-top: 0.8rem solid;
 	font-size: 1.8rem;
 	line-height: 1.8;
+	font-family: serif;
 }
 
 header, main {
-	max-width: 470px;
+	max-width: 47rem;
 	padding: 0 1.8rem;
 }
 
@@ -75,14 +83,14 @@ main {
 
 /* headings */
 h1 {
-	font-weight: bold;
 	font-size: 4rem;
+	font-weight: bold;
 }
 
 h2 {
-	font-weight: bold;
-	font-size: 2.4rem;
 	margin-top: 2rem;
+	font-size: 2.4rem;
+	font-weight: bold;
 }
 
 /* text & lists */
@@ -107,25 +115,25 @@ ol {
 }
 
 li {
-margin-top: 0.8rem;
+	margin-top: 0.8rem;
 }
 
 /* phrasing */
 a {
 	font-weight: bold;
-	color: #dd1c90;
+	color: var(--magenta);
 }
 
 a:hover {
-	color: #1c56dd;
-	text-decoration: none;
 	cursor: e-resize;
+	text-decoration: none;
+	color: var(--blue);
 }
 
 a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
     cursor: ne-resize;
-    color: #1faa22;
+    color: var(--green);
 }
 
 header a:hover {
@@ -146,7 +154,6 @@ font-family: sans-serif;
 }
 
 ::selection {
-background-color: #ffee00;
-color: #000000;
+background-color: var(--yellow);
 text-shadow: none;
 }
