@@ -93,12 +93,18 @@ h2 {
 	font-weight: bold;
 }
 
+h3 {
+	margin-top: 1.8rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
 /* text & lists */
 p, ul, ol {
 	margin-top: 1.8rem;
 }
 
-h2 + p, h2 + ul, h2 + ol {
+h2 + p, h2 + ul, h2 + ol, h3 + p {
 	margin-top: 0.5rem;
 }
 
