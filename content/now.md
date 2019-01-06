@@ -8,14 +8,16 @@ title = "Now"
 *Last updated: {{< date >}}*
 
 ## Online
-* just finished Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days - [explore my demo site](https://alicegherbison.github.io/javascript30))
-* completing the [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design Certification (currently on the end of course projects - [view my public profile](https://www.freecodecamp.org/alicegh))
+* working on finishing the Codecademy courses I started a while ago - [view my Codecademy profile](https://www.codecademy.com/alicegh)
+* just finished Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days - [explore my demo site](https://alicegherbison.github.io/javascript30)
+* just completed the [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design Certification - [view my freeCodeCamp profile](https://www.freecodecamp.org/alicegh)
 
 ## Offline
 
-* taking some time to relax over Christmas
+* focusing on legs, abs and shoulders in the gym
 * stretching more
-* preparing to teach more dance classes in the new year
+* preparing to teach more dance classes in the new year and learning some awesome new choreo
+* orienteering and running light green as much as possible
 * learning Korean ({{< lang code="ko" text="안녕하세요" >}}!)
 
 This page is inspired by the [Now Project](https://nownownow.com/about).
