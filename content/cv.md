@@ -1,31 +1,8 @@
 +++
 title = "CV"
-[emoji]
-	icon = "📄"
-	label = "paper"
+type = "page"
+layout = "cv"
 +++
-
-# Alice G Herbison
-hello [at] alicegherbison.com
-
-github - linkedin
-
-Hi, I'm Alice - a user experience developer in Edinburgh with a background in human computer interaction and psychology. I absolutely love learning new skills and technologies, and am pursuing front-end web development / UX prototyping roles in 2019.
-
-## Experience
-
-### User Experience Designer, Signal
-January 2015 - present, Edinburgh
-
-* prototyping in code
-* defining information architecture and site structures
-* content strategy and CMS planning
-* running usability tests
-* conducting primary user research and interviews
-
-At Signal, I've led the research, planning, information architecture and user experience design for Drinkaware, City of Glasgow College, National Galleries of Scotland and Powderbeds website redesigns, and a power-generator monitoring iPhone application for Aggreko.
-
-I also proposed and led the interative prototyping methods for creation of a new medical research platform that allows key leaders in scientific fields to communicate and collaborate.
 
 ### Digital Communications Intern, University of St Andrews
 January 2014, St Andrews

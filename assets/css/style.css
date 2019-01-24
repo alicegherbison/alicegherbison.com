@@ -1,9 +1,11 @@
 :root {
 	--black: #000000;
+	--grey: #f1f1f1;
 	--magenta: #dd1c90;
 	--yellow: #ffee00;
 	--green: #1faa22;
 	--blue: #1c56dd;
+	--indigo: #6542f4;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -163,3 +165,28 @@ font-family: sans-serif;
 background-color: var(--yellow);
 text-shadow: none;
 }
+
+/* CV styles */
+main {
+	width: 80vw;
+	max-width: 1024px;
+}
+
+section {
+	margin-bottom: 4rem;
+}
+
+#intro {
+	margin: 6rem 0;
+	text-align: center;
+}
+
+#about {
+	border-left: 0.5rem solid var(--magenta);
+	padding: 2.4rem;
+	background: var(--grey);
+}
+
+.cv a {
+		color: var(--indigo);
+	}
