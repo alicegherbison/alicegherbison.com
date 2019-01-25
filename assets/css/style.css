@@ -167,9 +167,10 @@ text-shadow: none;
 }
 
 /* CV styles */
-main {
+.cv {
 	width: 80vw;
 	max-width: 1024px;
+	font-size: 1.6rem;
 }
 
 section {
@@ -182,7 +183,7 @@ section {
 }
 
 #about {
-	border-left: 0.5rem solid var(--magenta);
+	border-left: 0.5rem solid var(--indigo);
 	padding: 2.4rem;
 	background: var(--grey);
 }
@@ -190,3 +191,29 @@ section {
 .cv a {
 		color: var(--indigo);
 	}
+
+.cv a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
+.cv a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
+    cursor: ne-resize;
+    color: var(--magenta);
+}
+
+.cv details {
+	margin-top: 1.8rem;
+	border-left: 0.5rem solid var(--indigo);
+	padding: 2.4rem;
+	background: var(--grey);
+}
+
+.cv summary:focus {
+	outline: none;
+}
+
+.cv summary:hover {
+	cursor: pointer;
+}
+
+.cv summary h3 {
+	display: inline-block;
+	margin-top: 0;
+}

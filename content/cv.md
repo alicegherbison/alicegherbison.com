@@ -4,19 +4,6 @@ type = "page"
 layout = "cv"
 +++
 
-### Digital Communications Intern, University of St Andrews
-January 2014, St Andrews
-
-Internship with the Digital Communications team working on the new university website.
-
-### Marketing & Experience Design Intern, ThoughtWorks
-June - August 2012, London
-
-* conducted research interviews for persona validation
-* designed graduate recruitment marketing materials & copy
-* project-managed promotional videos
-* created visuals and storyboards to explain brand evolution & current positioning
-
 ### Independent learning & projects
 
 To help support a transition into front-end development, I study frequently using online materials. Currently my focus is on React and Javascript.
