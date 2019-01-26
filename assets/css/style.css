@@ -9,8 +9,8 @@
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -140,8 +140,8 @@ a:hover {
 
 a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
-    cursor: ne-resize;
-    color: var(--green);
+	cursor: ne-resize;
+	color: var(--green);
 }
 
 header a:hover {
@@ -158,12 +158,12 @@ em {
 
 /* misc */
 :lang(ko){
-font-family: sans-serif;
+	font-family: sans-serif;
 }
 
 ::selection {
-background-color: var(--yellow);
-text-shadow: none;
+	background-color: var(--yellow);
+	text-shadow: none;
 }
 
 /* CV styles */
@@ -189,13 +189,13 @@ section {
 }
 
 .cv a {
-		color: var(--indigo);
-	}
+	color: var(--indigo);
+}
 
 .cv a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 .cv a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
-    cursor: ne-resize;
-    color: var(--magenta);
+	cursor: ne-resize;
+	color: var(--magenta);
 }
 
 .cv details {
@@ -215,5 +215,26 @@ section {
 
 .cv summary h3 {
 	display: inline-block;
+	margin-top: 0;
+}
+
+.modules li {
+	display: inline;
+}
+
+.modules li:not(:last-child):after {
+	content: " \2219 ";
+	display: inline;
+}
+
+.skill {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	border-left: 0.5rem solid var(--indigo);
+	padding: 2.4rem;
+	background: var(--grey);
+}
+
+.skill h3, .skill h3 p {
 	margin-top: 0;
 }
