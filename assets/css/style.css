@@ -218,23 +218,28 @@ section {
 	margin-top: 0;
 }
 
-.modules li {
+.horizontal-list li {
 	display: inline;
 }
 
-.modules li:not(:last-child):after {
+.horizontal-list li:not(:last-child):after {
 	content: " \2219 ";
 	display: inline;
 }
 
-.skill {
+.skills {
 	display: grid;
 	grid-template-columns: 30% 70%;
+	margin-top: 1.8rem;
 	border-left: 0.5rem solid var(--indigo);
 	padding: 2.4rem;
 	background: var(--grey);
 }
 
-.skill h3, .skill h3 p {
+.skills h3, .skills h3 p, .skills .horizontal-list {
 	margin-top: 0;
+}
+
+.skills > * {
+	align-self: start;
 }
