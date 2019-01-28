@@ -188,12 +188,12 @@ em {
 	color: var(--magenta);
 }
 
-#cv summary:focus {
-	outline: none;
-}
-
 #cv summary:hover {
 	cursor: pointer;
+}
+
+#cv summary:focus {
+	outline: none;
 }
 
 #cv summary h3 {
