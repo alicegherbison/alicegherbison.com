@@ -1,19 +1,19 @@
 {{ define "main" }}
-<main class="cv">
+<main id="cv">
   <section id="intro">
     <h1>Alice G Herbison</h1>
-    <span>hello [at] alicegherbison.com</span>
+    <span>hello [at] <a href="https://www.alicegherbison.com" target="_blank">alicegherbison.com</a></span>
     <div>
       <a href="https://www.github.com/alicegherbison" target="_blank">github</a> - <a href="https://codepen.io/alicegh/" target="_blank">codepen</a> - <a href="https://www.linkedin.com/in/alicegherbison/" target="_blank">linkedin</a>
     </div>
   </section>
-  <section id="about">
+  <section id="about" class="block">
     <p>Hi, I'm Alice - a <strong>user experience developer</strong> in Edinburgh with a background in human computer interaction and psychology. I absolutely love learning new skills and web technologies, and am pursuing <strong>front-end web development / UX prototyping roles</strong> in 2019.</p>
     <p>I'm highly detail-oriented, a critical thinker and driven to make the web a more accessible and usable place.</p>
   </section>
   <section id="experience">
     <h2>Experience</h2>
-    <div class="skills">
+    <div class="block group-list">
       <h3>Processes</h3>
       <ul class="horizontal-list">
         <li>usability testing</li>
@@ -42,7 +42,7 @@
         <li>JIRA</li>
       </ul>
     </div>
-    <details open>
+    <details class="block" open>
       <summary>
         <h3>User Experience Designer, <a href="https://www.cellosignal.com" target="blank">Signal</a></h3>
       </summary>
@@ -58,14 +58,14 @@
       <p>At Signal, I've led the user research, site planning, information architecture and template layouts for <a href="https://www.streetsoccerscotland.org/" target="_blank">Street Soccer Scotland</a>, <a href="https://www.drinkaware.co.uk/" target="_blank">Drinkaware</a>, <a href="https://www.nationalgalleries.org/" target="_blank">National Galleries of Scotland</a>, <a href="https://www.cityofglasgowcollege.ac.uk/" target="_blank">City of Glasgow College</a>, and <a href="https://www.powderbeds.com/" target="_blank">Powderbeds</a> website redesigns, and a <a href="https://itunes.apple.com/us/app/aggreko-remote-monitoring-2-0/id1134592892?mt=8" target="_blank">power-generator monitoring iPhone application</a> for <a href="https://www.aggreko.com/en-gb" target="_blank">Aggreko</a>. Clients for smaller pieces of work include <a href="https://personal.rbs.co.uk" target="_blank">RBS</a>, <a href="https://www.scottishfriendly.co.uk/" target="_blank">Scottish Friendly</a>, <a href="https://www.nandos.co.uk" target="_blank">Nando's</a>, <a href="https://www.edfringe.com/" target="_blank">Edinburgh Festival Fringe Society</a> and <a href="https://www.myworldofwork.co.uk/" target="_blank">My World of Work</a> (Skills Development Scotland).</p>
       <p>I also proposed and led the <strong>interative prototyping methods for a new online medical research platform</strong> that allows key scientific leaders to communicate and collaborate on the latest developments in their fields. This included building and maintaining three separate prototype instances running Hugo to illustrate and iterate on desired functionality and requirements for each client.</p>
     </details>
-    <details>
+    <details class="block">
       <summary>
         <h3>Digital Communications Intern, <a href="https://www.st-andrews.ac.uk/" target="_blank">University of St Andrews</a></h3>
       </summary>
       <span><em>January 2014 | St Andrews</em></span>
       <p>Internship with the Digital Communications team working on the new university website. Content delivery and management in an agile development process.</p>
     </details>
-    <details>
+    <details class="block">
       <summary>
         <h3>Marketing & Experience Design Intern, <a href="https://www.thoughtworks.com" target="_blank">ThoughtWorks</a></h3>
       </summary>
@@ -80,7 +80,7 @@
   </section>
   <section id="education">
     <h2>Education</h2>
-    <details open>
+    <details class="block" open>
       <summary>
         <h3>MSc Human Computer Interaction, <a href="https://www.st-andrews.ac.uk" target="_blank">University of St Andrews</a></h3>
       </summary>
@@ -94,7 +94,7 @@
       </ul>
       <p>Dissertation: designed and implemented the front-end user interface for the iPhone application <a href="https://dentanx.cs.st-andrews.ac.uk/" target="_blank">DentAnx</a> in Phonegap (HTML/CSS/JS) to help people with dental anxiety track the emotional strength of their anxiety and log pain levels throughout dental treatment as a method of psychological intervention. The work has been <a href="https://www.ncbi.nlm.nih.gov/pubmed/29148691" target="_blank">published in scholarly journals</a> and has since been fully implemented for iOS and Android.</p>
     </details>
-    <details>
+    <details class="block">
       <summary>
         <h3>MA(Hons) Psychology with Film Studies, <a href="https://www.st-andrews.ac.uk" target="_blank">University of St Andrews</a></h3>
       </summary>
@@ -113,31 +113,31 @@
       <p>Dissertation: Received a First for ‘Perceiving depth with one eye: The effects of reducing cues to picture surface visibility on the qualitative impression of stereopsis in two-dimensional images’</p>
     </details>
   </section>
-  <section>
+  <section id="learning">
     <h2>Independent learning &amp; projects</h2>
-    <div id="learning">
-      <p>Currently focusing on React and JavaScript, particularly ES6. Recently completed courses and projects:</p>
+    <div class="block">
+      <h3>Currently</h3>
+      <p>Focusing on React and JavaScript, particularly ES6. Recently completed courses and projects:</p>
       <ul>
         <li>freeCodeCamp Responsive Web Design Certification - <a href="https://codepen.io/alicegh/full/QzOaqqview" target="_blank">view portfolio</a></li>
         <li>Wes Bos' JavaScript30 - <a href="https://alicegherbison.github.io/javascript30" target="_blank">view demo site</a></li>
         <li>rebuilt <a href="https://www.alicegherbison.com" target="_blank">personal site</a> using Hugo - <a href="https://www.alicegherbison.com/site/" target="_blank">learn about site principles</a></li>
       </ul>
-      <p>Upcoming:</p>
+      <h3>Upcoming</h3>
       <ul>
         <li>explore RESTful APIs / React front-end by building a small site to search &amp; pull in cinema listings from an API</li>
         <li>create a responsive family tree interface</li>
       </ul>
     </div>
   </section>
-  <section>
+  <section id="speaking">
     <h2>Speaking</h2>
-    <div id="speaking">
-      <h3>User research throughout the project lifecycle</h3>
-      <span><em>Drupal Camp Scotland | May 2018</em></span>
-      <h3>How to test your user interface the right way</h3>
-      <span><em>Boagworld Show podcast | March 2018</em></span>
+    <div class="block">
+      <h3><a href="https://www.slideshare.net/cellosignal/signals-alice-herbison-drupal-camp-scotland-2018-98272319" target="_blank">User research throughout the project lifecycle</a></h3>
+      <span><em>Speaker at <a href="http://camp.drupal.scot/" target="_blank">Drupal Camp Scotland</a> | May 2018</em></span>
+      <h3><a href="https://boagworld.com/season/20/episode/2008/" target="_blank">How to test your user interface the right way</a></h3>
+      <span><em>Guest on the <a href="https://boagworld.com/show" target="_blank">Boagworld UX Show</a> | Podcast | March 2018</em></span>
     </div>
   </section>
-  {{ .Content }}
 </main>
 {{ end }}
