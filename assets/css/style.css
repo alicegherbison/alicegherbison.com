@@ -182,13 +182,13 @@ section {
 	text-align: center;
 }
 
-#about, #learning {
+#about, #learning, #speaking {
 	border-left: 0.5rem solid var(--indigo);
 	padding: 2.4rem;
 	background: var(--grey);
 }
 
-#learning {
+#learning, #speaking {
 	margin-top: 1.8rem;
 }
 
