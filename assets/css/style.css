@@ -182,10 +182,14 @@ section {
 	text-align: center;
 }
 
-#about {
+#about, #learning {
 	border-left: 0.5rem solid var(--indigo);
 	padding: 2.4rem;
 	background: var(--grey);
+}
+
+#learning {
+	margin-top: 1.8rem;
 }
 
 .cv a {
