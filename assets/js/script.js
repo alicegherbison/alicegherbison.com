@@ -1,9 +1,11 @@
-
 // the following code is adapted from https://stackoverflow.com/questions/13739568/how-do-i-link-a-javascript-file-to-a-html-file
 const details = document.querySelectorAll('details');
-console.log(details);
+const title = document.querySelector('title');
 
-const expand = function() {
+console.log(title);
+
+const print = function() {
+  title.innerHTML = '&nbsp';
   details.forEach((element) => {
     if (!element.hasAttribute('open')){
       element.setAttribute('open', '');
@@ -16,10 +18,10 @@ if (window.matchMedia) {
   const mediaQueryList = window.matchMedia('print');
   mediaQueryList.addListener(function(mql) {
       if (mql.matches) {
-          expand();
+          print();
       }
   });
 }
 
 // ie, firefox
-window.onbeforeprint = expand;
+window.onbeforeprint = print;

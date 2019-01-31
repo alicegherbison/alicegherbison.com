@@ -1,15 +1,69 @@
+:root {
+  --highlight: #000000;
+}
 
 @page {
-  margin: 1cm;
+  background: #ffffff;
+  margin: 0.75cm;
+  margin-top: 1cm;
+}
+
+h1 {
+  margin-bottom: 5pt;
+}
+
+h2 {
+  margin-top: 12pt;
+  border-bottom: 1px solid var(--highlight);
+}
+
+h3 {
+  margin-bottom: 3pt;
+}
+
+h2 + p, h2 + ul, h2 + ol, h3 + p, h3 + ul, p + ul {
+	margin-top: 0.5rem;
+}
+
+ul {
+  list-style: circle inside;
+  padding: 0;
 }
 
 #cv {
   font-size: 10pt;
+  line-height: 1.25;
 }
 
 #cv a {
   font-weight: bold;
-  color: #6542f4;
+  color: var(--highlight);
+}
+
+#cv details > summary {
+  list-style: none;
+}
+
+#cv details > summary::-webkit-details-marker {
+  display: none;
+}
+
+#experience, #education {
+  display: inline-block;
+}
+
+#experience {
+  width: 70%;
+  padding-right: 15pt;
+}
+
+#education {
+  width: 25%;
+  vertical-align: top;
+}
+
+#learning {
+  page-break-before: always;
 }
 
 #intro {
@@ -20,3 +74,33 @@
   display: none;
 }
 
+.block {
+	margin-top: 15pt;
+}
+
+.dissertation {
+  display: none;
+}
+
+.group-list {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	align-items: center;
+}
+
+.group-list h3, .group-list h3 p, .group-list .horizontal-list {
+	margin-top: 0;
+}
+
+.group-list h3 {
+	align-self: start;
+}
+
+.horizontal-list li {
+	display: inline;
+}
+
+.horizontal-list li:not(:last-child):after {
+	content: " \2219 ";
+	display: inline;
+}
