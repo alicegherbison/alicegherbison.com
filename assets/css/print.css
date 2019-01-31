@@ -40,6 +40,10 @@ ul {
   color: var(--highlight);
 }
 
+#cv a[href^="javascript"]:hover {
+  cursor: pointer;
+}
+
 #cv details > summary {
   list-style: none;
 }
@@ -72,10 +76,6 @@ ul {
 
 #print {
   display: none;
-}
-
-#cv a[href^="javascript"]:hover {
-  cursor: pointer;
 }
 
 #social {
