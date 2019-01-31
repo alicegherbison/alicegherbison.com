@@ -206,6 +206,10 @@ em {
 	text-align: center;
 }
 
+#print {
+	text-align: center;
+}
+
 .block {
 	margin-top: 1.8rem;
 	border-left: 0.5rem solid var(--indigo);

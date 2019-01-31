@@ -70,6 +70,14 @@ ul {
   text-align: center;
 }
 
+#print {
+  display: none;
+}
+
+#cv a[href^="javascript"]:hover {
+  cursor: pointer;
+}
+
 #social {
   display: none;
 }

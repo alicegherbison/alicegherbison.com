@@ -145,6 +145,9 @@
       <span><em>Guest on the <a href="https://boagworld.com/show" target="_blank">Boagworld UX Show</a> | Podcast | March 2018</em></span>
     </div>
   </section>
+  <section id="print">
+    <a href="javascript:window.print()" id="printme">print me</a>
+  </section>
 </main>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}" type="text/javascript"></script>
