@@ -10,8 +10,9 @@
   <meta name="description" content="{{ .Site.Params.description }}" />
   <meta name="keywords" content="{{ .Site.Params.tags }}" />
   <meta name="author" content="{{ .Site.Params.author }}" />
-  {{ $style := resources.Get "css/style.css" | minify }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css" media="screen" />
+  {{ $screen := resources.Get "css/screen.css" | minify }}
+  <link rel="stylesheet" href="{{ $screen.Permalink }}" type="text/css" media="screen" />
+  {{ block "css" . }}{{ end }}
   {{ "<!-- Google Tag Manager -->" | safeHTML }}
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PPR3CQ9');
   </script>

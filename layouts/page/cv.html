@@ -1,3 +1,7 @@
+{{ define "css" }}
+{{ $print := resources.Get "css/print.css" | minify }}
+  <link rel="stylesheet" href="{{ $print.Permalink }}" type="text/css" media="print" />
+{{ end }}
 {{ define "main" }}
 <main id="cv">
   <section id="intro">
