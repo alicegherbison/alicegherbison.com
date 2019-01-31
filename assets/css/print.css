@@ -1,0 +1,22 @@
+
+@page {
+  margin: 1cm;
+}
+
+#cv {
+  font-size: 10pt;
+}
+
+#cv a {
+  font-weight: bold;
+  color: #6542f4;
+}
+
+#intro {
+  text-align: center;
+}
+
+#social {
+  display: none;
+}
+
