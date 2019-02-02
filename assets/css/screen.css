@@ -201,6 +201,11 @@ em {
 	margin-top: 0;
 }
 
+#cv a[href^="javascript"]:hover {
+	cursor: pointer;
+	color: var(--black);
+}
+
 #intro {
 	margin: 6rem 0;
 	text-align: center;
