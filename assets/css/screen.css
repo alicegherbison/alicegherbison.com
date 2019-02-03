@@ -128,12 +128,14 @@ li {
 
 /* phrasing */
 a {
+	border-bottom: 0.2rem solid var(--magenta);
 	font-weight: bold;
+	text-decoration: none;
 	color: var(--magenta);
 }
 
 a:hover {
-	cursor: e-resize;
+	border-bottom: none;
 	text-decoration: none;
 	color: var(--blue);
 }
@@ -142,10 +144,6 @@ a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
 	cursor: ne-resize;
 	color: var(--green);
-}
-
-header a:hover {
-	cursor: w-resize;
 }
 
 strong {
@@ -179,7 +177,14 @@ em {
 }
 
 #cv a {
+	border-bottom: 0.2rem solid var(--indigo);
 	color: var(--indigo);
+	text-decoration: none;	
+}
+
+#cv a:hover {
+	border-bottom: none;
+	color: var(--blue);
 }
 
 #cv a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
@@ -202,7 +207,6 @@ em {
 }
 
 #cv a[href^="javascript"]:hover {
-	cursor: pointer;
 	color: var(--black);
 }
 
