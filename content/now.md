@@ -8,7 +8,7 @@ title = "Now"
 *Last updated: {{< date >}}*
 
 ## Online
-* improving JavaScript skills by finishing Codecademy courses I started a while ago - [view my Codecademy profile](https://www.codecademy.com/alicegh)
+* improving React & JavaScript skills on Codecademy - [view my Codecademy profile](https://www.codecademy.com/alicegh)
 * just finished Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days - [explore my demo site](https://alicegherbison.github.io/javascript30)
 * just completed the [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design Certification - [view my freeCodeCamp profile](https://www.freecodecamp.org/alicegh)
 

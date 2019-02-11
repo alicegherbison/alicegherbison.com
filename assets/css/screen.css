@@ -101,6 +101,12 @@ h3 {
 	font-weight: bold;
 }
 
+h4 {
+	margin-top: 1.6rem;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
 /* text & lists */
 p, ul, ol {
 	margin-top: 1.8rem;
@@ -110,20 +116,27 @@ h2 + p, h2 + ul, h2 + ol, h3 + p, h3 + ul, p + ul {
 	margin-top: 0.5rem;
 }
 
+h4 + p, h4 + ul {
+	margin-top: 0;
+}
+
 h1:first-child, h2:first-child, h3:first-child, p:first-child, ol:first-child, ul:first-child, li:first-child {
 	margin-top: 0;
 }
 
 ul {
-	list-style: circle inside;
+	list-style: circle outside;
+	margin-left: 1.8rem;
 }
 
 ol {
-	list-style: decimal inside;
+	list-style: decimal outside;
+	margin-left: 1.8rem;
 }
 
 li {
 	margin-top: 0.8rem;
+	padding-left: 0.9rem;
 }
 
 /* phrasing */
@@ -169,7 +182,7 @@ em {
 #cv {
 	width: 80vw;
 	max-width: 1024px;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 }
 
 #cv section {
@@ -193,6 +206,14 @@ em {
 	color: var(--magenta);
 }
 
+#cv ul {
+	margin-left: 1.6rem;
+}
+
+#cv ul li {
+	margin-top: 0.6rem;
+}
+
 #cv summary:hover {
 	cursor: pointer;
 }
@@ -202,8 +223,12 @@ em {
 }
 
 #cv summary h3 {
-	display: inline-block;
+	display: inline;
 	margin-top: 0;
+}
+
+#cv details > summary::-webkit-details-marker {
+  display: inline;
 }
 
 #cv a[href^="javascript"]:hover {
@@ -242,8 +267,14 @@ em {
 	align-self: start;
 }
 
+#cv ul.horizontal-list {
+	margin-left: 0;
+	list-style-position: outside;
+}
+
 .horizontal-list li {
 	display: inline;
+	padding-left: 0;
 }
 
 .horizontal-list li:not(:last-child):after {

@@ -33,8 +33,7 @@ body {
 }
 
 @page {
-  margin: 0.7cm;
-  margin-top: 1cm;
+  margin: 1cm 1.5cm;
 }
 
 body {
@@ -66,6 +65,11 @@ h3 {
   font-size: 12pt;
 }
 
+h4 {
+  margin-top: 9pt;
+  font-size: 9.5pt;
+}
+
 p, ul, ol {
 	margin-top: 8pt;
 }
@@ -74,13 +78,27 @@ h3 + p, h3 + ul, p + ul {
 	margin-top: 5pt;
 }
 
+h4 + p, h4 + ul {
+  margin-top: 2pt;
+}
+
 p:first-child, ol:first-child, ul:first-child, li:first-child {
 	margin-top: 0;
 }
 
 ul {
-  list-style: circle inside;
+  list-style: circle outside;
+  margin-left: 12pt;
   padding: 0;
+}
+
+li {
+  margin-top: 2pt;
+  padding-left: 2pt;
+}
+
+section {
+  margin-bottom: 20pt;
 }
 
 #about {
@@ -101,24 +119,17 @@ ul {
   display: none;
 }
 
-#experience, #education {
-  display: inline-block;
-}
-
-#experience {
-  float: left;
-  width: 70%;
-  padding-right: 15pt;
+#cv ul.horizontal-list {
+  margin-left: 0;
+	list-style-position: outside;
 }
 
 #education {
-  width: 25%;
-  vertical-align: top;
+  page-break-before: always;
 }
 
 #learning {
   clear: both;
-  page-break-before: always;
 }
 
 #intro {
@@ -127,6 +138,10 @@ ul {
 
 #social {
   display: none;
+}
+
+.block {
+  margin-top: 5pt;
 }
 
 .dissertation {
