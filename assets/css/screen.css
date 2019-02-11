@@ -291,3 +291,9 @@ em {
 		margin-bottom: 1rem;
 	}
 }	
+
+@media only screen and (max-width: 450px) {
+	#cv {
+		width: initial;
+	}
+}
