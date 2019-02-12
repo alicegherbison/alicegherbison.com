@@ -224,7 +224,6 @@ em {
 
 #cv summary h3 {
 	display: inline;
-	margin-top: 0;
 }
 
 #cv details > summary::-webkit-details-marker {
