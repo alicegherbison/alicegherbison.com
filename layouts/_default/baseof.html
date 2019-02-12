@@ -10,9 +10,7 @@
   <meta name="description" content="{{ .Site.Params.description }}" />
   <meta name="keywords" content="{{ .Site.Params.tags }}" />
   <meta name="author" content="{{ .Site.Params.author }}" />
-  {{- $reset := resources.Get "css/reset.css" -}}
-  {{- $rawScreen := resources.Get "css/screen.css" -}}
-  {{- $screen := slice $reset $rawScreen | resources.Concat "css/screen.css" | minify -}}
+  {{- $screen := (slice (resources.Get "css/reset.css") (resources.Get "css/screen.css")) | resources.Concat "css/screen.css" | minify -}}
   <link rel="stylesheet" href="{{ $screen.Permalink }}" type="text/css" media="screen" />
   {{- block "css" . -}}{{- end -}}
   {{- "<!-- Google Tag Manager -->" | safeHTML -}}
