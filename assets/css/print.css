@@ -96,11 +96,11 @@ li {
 }
 
 section {
-  margin-bottom: 20pt;
+  margin-bottom: 15pt;
 }
 
 #about {
-  margin-top: 10pt;
+  margin-top: 5pt;
 }
 
 #cv a {
@@ -139,7 +139,7 @@ section {
 }
 
 .block {
-  margin-top: 5pt;
+  margin-top: 4pt;
 }
 
 .dissertation {
@@ -162,8 +162,14 @@ section {
 	align-self: start;
 }
 
+#cv ul.horizontal-list {
+	margin-left: 0;
+	list-style-position: outside;
+}
+
 .horizontal-list li {
-	display: inline;
+  display: inline;
+  padding-left: 0;
 }
 
 .horizontal-list li:not(:last-child):after {
