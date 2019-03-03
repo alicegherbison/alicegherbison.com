@@ -5,7 +5,9 @@ title = "Hello"
 	label = "wave"
 +++
 
-I'm **Alice**, a **user experience designer and developer** based in Edinburgh, Scotland.
+I'm **Alice**, a **user experience developer** based in Edinburgh, Scotland.
+
+I'm currently available for work and am seeking a **front end development** role where I can use my user experience design skills. 
 
 I'm skilled in:
 
