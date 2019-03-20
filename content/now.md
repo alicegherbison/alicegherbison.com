@@ -9,9 +9,10 @@ title = "Now"
 
 ## Online
 * exploring RESTful APIs by building a cinema times finder to improve Cineworld's data display - [view GitHub repo](https://github.com/alicegherbison/cinema)
-* focusing on learning [React](https://reactforbeginners.com/) and ES6 - [view GitHub repo](https://github.com/alicegherbison/catch-of-the-day)
-* just finished Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days - [explore my demo site](https://alicegherbison.github.io/javascript30)
-* just completed the [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design Certification - [view my freeCodeCamp profile](https://www.freecodecamp.org/alicegh)
+* strengthening ES6 skills with [ES6 for Everyone](https://www.es6.io)
+* finished a course on [React](https://reactforbeginners.com/) - [view GitHub repo](https://github.com/alicegherbison/catch-of-the-day)
+* finished Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days - [explore my demo site](https://alicegherbison.github.io/javascript30)
+* completed the [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design Certification - [view my freeCodeCamp profile](https://www.freecodecamp.org/alicegh)
 
 ## Offline
 
