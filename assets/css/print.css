@@ -45,7 +45,7 @@ nav {
 
 h1 {
   margin-bottom: 4pt;
-  font-size: 20pt;
+  font-size: 19pt;
   letter-spacing: 1pt;
   text-transform: uppercase;
 }
@@ -53,19 +53,19 @@ h1 {
 h2 {
   margin-top: 12pt;
   border-bottom: 1pt solid var(--black);
-  font-size: 14pt;
+  font-size: 13pt;
   letter-spacing: 1pt;
   text-transform: uppercase;
 }
 
 h3 {
   margin-top: 11pt;
-  font-size: 12pt;
+  font-size: 11pt;
 }
 
 h4 {
-  margin-top: 9pt;
-  font-size: 9.5pt;
+  margin-top: 7pt;
+  font-size: 9pt;
 }
 
 p, ul, ol {
