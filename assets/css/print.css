@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, output, ruby, section, summary,
 time, mark, audio, video {
 	vertical-align: baseline;
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -122,10 +122,6 @@ section {
 	list-style-position: outside;
 }
 
-#education {
-  page-break-before: always;
-}
-
 #learning {
   clear: both;
 }
@@ -135,19 +131,14 @@ section {
 }
 
 .block {
-  margin-top: 4pt;
-}
-
-.dissertation {
-  display: none;
+  margin-top: 11pt;
 }
 
 .group-list {
 	display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 50% 50%;
   grid-row-gap: 5pt;
-  align-items: center;
-  margin-top: 10pt;
+  grid-column-gap: 5pt;
 }
 
 .group-list h3, .group-list h3 p, .group-list .horizontal-list {
@@ -155,12 +146,18 @@ section {
 }
 
 .group-list h3 {
-	align-self: start;
+  display: inline;
+  font-size: 9pt;
+  margin-right: 4pt;
 }
 
 #cv ul.horizontal-list {
 	margin-left: 0;
 	list-style-position: outside;
+}
+
+.horizontal-list {
+  display: inline;
 }
 
 .horizontal-list li {
