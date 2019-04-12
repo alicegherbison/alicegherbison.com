@@ -5,11 +5,9 @@ title = "Hello"
 	label = "wave"
 +++
 
-I'm **Alice**, a **user experience developer** based in Edinburgh, Scotland.
+I'm **Alice**, a **front end developer** based in Edinburgh, Scotland.
 
-I'm highly **detailed-oriented, empathetic and passionate** about learning new skills and web technologies. My background is in user-centred interaction design of **accessible, responsive and friendly** interfaces that meet both **user and client needs**. 
-
-I'm currently available for work and am seeking a **front-end development**-based role in an environment that supports growth, where I can bring value with my UX skills. 
+I'm highly **detailed-oriented, empathetic and passionate** about learning new skills and web technologies. My background is in user-centred interaction design of **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
 
 I have an **MSc** in **human computer interaction** and an undergraduate degree in psychology.
 
