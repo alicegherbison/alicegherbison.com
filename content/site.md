@@ -7,7 +7,7 @@ title = "About this site"
 
 *Last build: {{< build-date >}}*
 
-Even though my website is tiny without much content at the moment, I want every design and code decision to meet the following two principles:
+Even though my website is tiny without much content, I want every design and code decision to meet the following two principles:
 
 1. Lean and fast as possible - no unnecessary frameworks or third-party scripts, and no design decisions that contradict this
 2. Accessible - meets WCAG 2.0 AA criteria and validates by W3C with no errors
