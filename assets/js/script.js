@@ -2,7 +2,7 @@
 const details = document.querySelectorAll('details');
 const title = document.querySelector('title');
 
-const prepareForPrint = function() {
+function prepareForPrint() {
   title.innerHTML = '&nbsp';
   details.forEach((element) => {
     if (!element.hasAttribute('open')){
@@ -14,7 +14,7 @@ const prepareForPrint = function() {
 // webkit
 if (window.matchMedia) {
   const mediaQueryList = window.matchMedia('print');
-  mediaQueryList.addListener(function(mql) {
+  mediaQueryList.addListener((mql) => {
       if (mql.matches) {
         prepareForPrint();
       }
