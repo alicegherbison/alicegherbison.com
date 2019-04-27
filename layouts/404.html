@@ -1,10 +1,12 @@
 {{ define "header"}}
-{{ partial "back.html" . }}
+<header>
+    {{ partial "back.html" . }}
+</header>
 {{ end }}
 {{ define "main"}}
 <main>
     <h1>Oh no! <span role="img" aria-label="scream">😱</span></h1>
     <p>This page can't be found!</p>
-    <img src="https://media.giphy.com/media/xBoFfXnnWawSXkTtsu/giphy.gif" alt="Leave this place" />
+    <img src="https://media.giphy.com/media/xBoFfXnnWawSXkTtsu/giphy.gif" alt="Leave this place" style="max-width: 100%;"/>
 </main>
 {{ end }}
