@@ -6,8 +6,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 	author = "Alice G Herbison"
-	description = "Website of Alice G Herbison, user experience designer based in Edinburgh, Scotland."
-	tags = "ux, design, html, css, javascript"
+	description = "Website of Alice G Herbison, front-end developer based in Edinburgh, Scotland."
+	tags = "react, html, css, javascript, ux, design, redux"
 
 [languages]
 	[languages.en]
