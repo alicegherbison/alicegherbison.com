@@ -15,4 +15,4 @@ I have an **MSc** in **human computer interaction** and an undergraduate degree 
 
 You can [find out more about this site](/site/) and some of the principles behind it, [read my 'now' page](/now/) (what I'm up to at the moment), [explore my cv](/cv/) (it's printable) or [check out the privacy policy](/privacy/).
 
-I'm on [Twitter](https://www.twitter.com/alicegherbison), [Github](https://github.com/alicegherbison), [LinkedIn](https://linkedin.com/in/alicegherbison/) and reachable by email - hello [at] alicegherbison.com
+I'm on [Twitter](https://www.twitter.com/alicegherbison), [GitHub](https://github.com/alicegherbison), [LinkedIn](https://linkedin.com/in/alicegherbison/) and reachable by email - hello [at] alicegherbison.com
