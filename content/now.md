@@ -16,6 +16,7 @@ title = "Now"
 
 ## Offline
 
+* settling into a new job and enjoying learning new things!
 * trying to stretch
 * learning Korean ({{< lang code="ko" text="안녕하세요" >}}!)
 
