@@ -17,7 +17,7 @@ html {
 body {
 	border-top: 0.8rem solid;
 	font-size: 1.8rem;
-	line-height: 1.8;
+	line-height: 1.5;
 	font-family: serif;
 }
 
@@ -183,6 +183,10 @@ em {
 
 #cv a[href^="javascript"]:hover {
 	color: var(--black);
+}
+
+#email {
+	margin-top: 1rem;
 }
 
 #intro {
