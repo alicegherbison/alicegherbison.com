@@ -90,6 +90,10 @@ li {
 	padding-left: 0.9rem;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* phrasing */
 a {
 	border-bottom: 0.2rem solid var(--magenta);
