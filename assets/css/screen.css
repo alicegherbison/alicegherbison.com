@@ -95,6 +95,19 @@ li {
 	padding-left: 0.9rem;
 }
 
+dt {
+	display: inline;
+
+	margin-right: 1rem;
+
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+dd {
+	display: inline;
+}
+
 img {
 	max-width: 100%;
 }
