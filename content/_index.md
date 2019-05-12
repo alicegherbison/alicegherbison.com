@@ -5,7 +5,7 @@ title = "Hello"
 	label = "wave"
 +++
 
-I'm **Alice**, a **front end developer** based in Edinburgh, Scotland.
+I'm **Alice**, a **front-end developer** based in Edinburgh, Scotland.
 
 I'm highly **detailed-oriented, empathetic and passionate** about learning new skills and web technologies. My background is in user-centred interaction design of **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
 
