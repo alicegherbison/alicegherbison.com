@@ -150,7 +150,7 @@ em {
 }
 
 #cv section {
-	margin-bottom: 4rem;
+	margin-top: 4rem;
 }
 
 #cv a {
@@ -205,8 +205,6 @@ em {
 }
 
 #intro {
-	margin: 2rem 0;
-
 	text-align: center;
 }
 
@@ -215,7 +213,7 @@ em {
 }
 
 .block {
-	margin-top: 1.8rem;
+	margin-top: 1.2rem;
 	border-left: 0.5rem solid var(--indigo);
 	padding: 2.4rem;
 
@@ -271,10 +269,6 @@ em {
 @media only screen and (max-width: 800px) {
 	.group-list {
 		display: block;
-	}
-
-	.group-list .horizontal-list:not(:last-child) {
-		margin-bottom: 1rem;
 	}
 }
 
