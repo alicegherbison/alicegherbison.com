@@ -16,9 +16,10 @@ html {
 /* sectioning & structuring */
 body {
 	border-top: 0.8rem solid;
+
 	font-size: 1.8rem;
-	line-height: 1.5;
 	font-family: serif;
+	line-height: 1.5;
 }
 
 header, main {
@@ -42,18 +43,21 @@ h1 {
 
 h2 {
 	margin-top: 2rem;
+
 	font-size: 2.4rem;
 	font-weight: bold;
 }
 
 h3 {
 	margin-top: 1.8rem;
+
 	font-size: 2rem;
 	font-weight: bold;
 }
 
 h4 {
 	margin-top: 1.6rem;
+
 	font-size: 1.8rem;
 	font-weight: bold;
 }
@@ -81,8 +85,9 @@ ul {
 }
 
 ol {
-	list-style: decimal outside;
 	margin-left: 1.8rem;
+
+	list-style: decimal outside;
 }
 
 li {
@@ -97,6 +102,7 @@ img {
 /* phrasing */
 a {
 	border-bottom: 0.2rem solid var(--magenta);
+
 	font-weight: bold;
 	text-decoration: none;
 	color: var(--magenta);
@@ -104,6 +110,7 @@ a {
 
 a:hover {
 	border-bottom: none;
+
 	text-decoration: none;
 	color: var(--blue);
 }
@@ -111,6 +118,7 @@ a:hover {
 a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
 	cursor: ne-resize;
+
 	color: var(--green);
 }
 
@@ -137,6 +145,7 @@ em {
 #cv {
 	width: 80vw;
 	max-width: 1024px;
+
 	font-size: 1.5rem;
 }
 
@@ -146,8 +155,9 @@ em {
 
 #cv a {
 	border-bottom: 0.2rem solid var(--indigo);
-	color: var(--indigo);
+
 	text-decoration: none;
+	color: var(--indigo);
 }
 
 #cv a:hover {
@@ -158,6 +168,7 @@ em {
 #cv a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 #cv a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
 	cursor: ne-resize;
+
 	color: var(--magenta);
 }
 
@@ -195,6 +206,7 @@ em {
 
 #intro {
 	margin: 2rem 0;
+
 	text-align: center;
 }
 
@@ -206,14 +218,16 @@ em {
 	margin-top: 1.8rem;
 	border-left: 0.5rem solid var(--indigo);
 	padding: 2.4rem;
+
 	background: var(--grey);
 }
 
 .group-list {
-	display: grid;
 	grid-template-columns: 50% 50%;
 	grid-row-gap: 1.5rem;
 	grid-column-gap: 1.5rem;
+
+	display: grid;
 }
 
 .group-list h3, .group-list h3 p, .group-list .horizontal-list {
@@ -222,12 +236,15 @@ em {
 
 .group-list h3 {
 	display: inline;
-	font-size: 1.5rem;
+
 	margin-right: 1rem;
+
+	font-size: 1.5rem;
 }
 
 #cv ul.horizontal-list {
 	margin-left: 0;
+
 	list-style-position: outside;
 }
 
@@ -237,11 +254,13 @@ em {
 
 .horizontal-list li {
 	display: inline;
+
 	padding-left: 0;
 }
 
 .horizontal-list li:not(:last-child):after {
 	content: " \2219 ";
+
 	display: inline;
 }
 
