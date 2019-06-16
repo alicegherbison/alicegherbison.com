@@ -1,292 +1,325 @@
 :root {
-	--black: #000000;
-	--grey: #f1f1f1;
-	--magenta: #dd1c90;
-	--yellow: #ffee00;
-	--green: #1faa22;
-	--blue: #1c56dd;
-	--indigo: #6542f4;
+  --black: #000000;
+  --grey: #f1f1f1;
+  --magenta: #dd1c90;
+  --yellow: #ffee00;
+  --green: #1faa22;
+  --blue: #1c56dd;
+  --indigo: #6542f4;
+
+  --color-black: #221f22;
+  --color-grey-dark: #2c292d;
+  --color-grey-mid: #727272;
+  --color-grey-light: #ccc;
+  --color-lilac: #ab9df2;
+  --color-magenta: #ff6188;
+  --color-peach: #fc9867;
+  --color-lemon: #ffd866;
+  --color-lime: #a9dc76;
+  --color-cyan: #78dce8;
+  --color-straw: #fcfcfa;
 }
 
 /* document */
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 /* sectioning & structuring */
 body {
-	border-top: 0.8rem solid;
+  border-top: 0.8rem solid;
 
-	font-size: 1.8rem;
-	font-family: serif;
-	line-height: 1.5;
+  background-color: var(--color-grey-dark);
+
+  font-size: 1.8rem;
+  font-family: Courier, monospace;
+  line-height: 1.8;
+  letter-spacing: 0.07rem;
+  color: var(--color-straw);
 }
 
-header, main {
-	max-width: 47rem;
-	padding: 0 1.8rem;
+header,
+main {
+  max-width: 47rem;
+  padding: 0 1.8rem;
 }
 
 header {
-	margin: 4rem auto 0 auto;
+  margin: 4rem auto 0 auto;
 }
 
 main {
-	margin: 2rem auto;
+  margin: 2rem auto;
 }
 
 /* headings */
 h1 {
-	font-size: 4rem;
-	font-weight: bold;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 h2 {
-	margin-top: 2rem;
+  margin-top: 2rem;
 
-	font-size: 2.4rem;
-	font-weight: bold;
+  font-size: 2.4rem;
+  font-weight: bold;
 }
 
 h3 {
-	margin-top: 1.8rem;
+  margin-top: 1.8rem;
 
-	font-size: 2rem;
-	font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h4 {
-	margin-top: 1.6rem;
+  margin-top: 1.6rem;
 
-	font-size: 1.8rem;
-	font-weight: bold;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 /* text & lists */
-p, ul, ol {
-	margin-top: 1.8rem;
+p,
+ul,
+ol {
+  margin-top: 1.8rem;
 }
 
-h2 + p, h2 + ul, h2 + ol, h3 + p, h3 + ul, p + ul {
-	margin-top: 0.5rem;
+h2 + p,
+h2 + ul,
+h2 + ol,
+h3 + p,
+h3 + ul,
+p + ul {
+  margin-top: 0.5rem;
 }
 
-h4 + p, h4 + ul {
-	margin-top: 0;
+h4 + p,
+h4 + ul {
+  margin-top: 0;
 }
 
-h1:first-child, h2:first-child, h3:first-child, p:first-child, ol:first-child, ul:first-child, li:first-child {
-	margin-top: 0;
+h1:first-child,
+h2:first-child,
+h3:first-child,
+p:first-child,
+ol:first-child,
+ul:first-child,
+li:first-child {
+  margin-top: 0;
 }
 
 ul {
-	list-style: circle outside;
-	margin-left: 1.8rem;
+  list-style: circle outside;
+  margin-left: 1.8rem;
 }
 
 ol {
-	margin-left: 1.8rem;
+  margin-left: 1.8rem;
 
-	list-style: decimal outside;
+  list-style: decimal outside;
 }
 
 li {
-	margin-top: 0.8rem;
-	padding-left: 0.9rem;
+  margin-top: 0.8rem;
+  padding-left: 0.9rem;
 }
 
 dt {
-	display: inline;
+  display: inline;
 
-	margin-right: 1rem;
+  margin-right: 1rem;
 
-	font-size: 1.5rem;
-	font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 dd {
-	display: inline;
+  display: inline;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* phrasing */
 a {
-	border-bottom: 0.2rem solid var(--magenta);
+  border-bottom: 0.2rem solid var(--color-magenta);
 
-	font-weight: bold;
-	text-decoration: none;
-	color: var(--magenta);
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-magenta);
 }
 
 a:hover {
-	border-bottom: none;
+  border-bottom: none;
 
-	text-decoration: none;
-	color: var(--blue);
+  text-decoration: none;
+  color: var(--color-cyan);
 }
 
 a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
-	cursor: ne-resize;
+  cursor: ne-resize;
 
-	color: var(--green);
+  color: var(--color-lime);
 }
 
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
 
 /* misc */
-:lang(ko){
-	font-family: sans-serif;
+:lang(ko) {
+  font-family: sans-serif;
 }
 
 ::selection {
-	background-color: var(--yellow);
-	text-shadow: none;
+  background-color: var(--color-lemon);
+  text-shadow: none;
 }
 
 /* CV styles */
 
 #cv {
-	width: 80vw;
-	max-width: 1024px;
+  width: 80vw;
+  max-width: 1024px;
 
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 #cv section {
-	margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 #cv a {
-	border-bottom: 0.2rem solid var(--indigo);
+  border-bottom: 0.2rem solid var(--color-lilac);
 
-	text-decoration: none;
-	color: var(--indigo);
+  text-decoration: none;
+  color: var(--color-lilac);
 }
 
 #cv a:hover {
-	border-bottom: none;
-	color: var(--blue);
+  border-bottom: none;
+  color: var(--color-cyan);
 }
 
 #cv a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 #cv a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
-	cursor: ne-resize;
+  cursor: ne-resize;
 
-	color: var(--magenta);
+  color: var(--color-magenta);
 }
 
 #cv ul {
-	margin-left: 1.6rem;
+  margin-left: 1.6rem;
 }
 
 #cv ul li {
-	margin-top: 0.6rem;
+  margin-top: 0.6rem;
 }
 
 #cv summary:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #cv summary:focus {
-	outline: none;
+  outline: none;
 }
 
 #cv summary h3 {
-	display: inline;
+  display: inline;
 }
 
 #cv details > summary::-webkit-details-marker {
   display: inline;
 }
 
-#cv a[href^="javascript"]:hover {
-	color: var(--black);
+#cv a[href^='javascript']:hover {
+  color: var(--color-black);
 }
 
 #email {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 #intro {
-	text-align: center;
+  text-align: center;
 }
 
 #print {
-	text-align: center;
+  text-align: center;
 }
 
 .block {
-	margin-top: 1.2rem;
-	border-left: 0.5rem solid var(--indigo);
-	padding: 2.4rem;
+  margin-top: 1.2rem;
+  border-left: 0.5rem solid var(--color-lilac);
+  padding: 2.4rem;
 
-	background: var(--grey);
+  background: var(--color-black);
 }
 
 .group-list {
-	grid-template-columns: 50% 50%;
-	grid-row-gap: 1.5rem;
-	grid-column-gap: 1.5rem;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 1.5rem;
 
-	display: grid;
+  display: grid;
 }
 
-.group-list h3, .group-list h3 p, .group-list .horizontal-list {
-	margin-top: 0;
+.group-list h3,
+.group-list h3 p,
+.group-list .horizontal-list {
+  margin-top: 0;
 }
 
 .group-list h3 {
-	display: inline;
+  display: inline;
 
-	margin-right: 1rem;
+  margin-right: 1rem;
 
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 #cv ul.horizontal-list {
-	margin-left: 0;
+  margin-left: 0;
 
-	list-style-position: outside;
+  list-style-position: outside;
 }
 
 .horizontal-list {
-	display: inline;
+  display: inline;
 }
 
 .horizontal-list li {
-	display: inline;
+  display: inline;
 
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .horizontal-list li:not(:last-child):after {
-	content: " \2219 ";
+  content: ' \2219 ';
 
-	display: inline;
+  display: inline;
 }
 
 .print-only {
-	display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 800px) {
-	.group-list {
-		display: block;
-	}
+  .group-list {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-	#cv {
-		width: initial;
-	}
+  #cv {
+    width: initial;
+  }
 }
