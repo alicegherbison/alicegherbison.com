@@ -48,7 +48,6 @@ body:before, body:after {
 
   height: 0.8rem;
 
-  /* background-color: var(--color-magenta); */
   background-image: linear-gradient(to right, var(--color-magenta), var(--color-lemon),  var(--color-lime), var(--color-cyan));
 }
 
@@ -184,14 +183,14 @@ a:hover {
   border-bottom: none;
 
   text-decoration: none;
-  color: var(--color-lime);
+  color: var(--color-cyan);
 }
 
 a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
   cursor: ne-resize;
 
-  color: var(--color-cyan);
+  color: var(--color-peach);
 }
 
 strong {
