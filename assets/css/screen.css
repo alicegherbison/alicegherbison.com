@@ -27,9 +27,6 @@ html {
 
 /* sectioning & structuring */
 body {
-  border-left: 0.8rem solid var(--color-magenta);
-  border-right: 0.8rem solid var(--color-cyan);
-
   background-color: var(--color-grey-dark);
 
   font-size: 1.8rem;
@@ -37,6 +34,28 @@ body {
   line-height: 1.8;
   letter-spacing: 0.07rem;
   color: var(--color-grey-light);
+}
+
+html:before, html:after {
+  content: '';
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+
+  width: 0.53rem;
+}
+
+html:before {
+  left: 0;
+
+  background-color: var(--color-magenta);
+}
+
+html:after {
+  right: 0;
+
+  background-color: var(--color-cyan);
 }
 
 body:before, body:after {
