@@ -8,11 +8,8 @@ title = "Now"
 *Last updated: {{< date >}}*
 
 ## Online
-* exploring RESTful APIs by building a cinema times finder to improve Cineworld's data display - [view GitHub repo](https://github.com/alicegherbison/cinema)
+* finishing off exploring RESTful APIs by building a cinema times finder to improve Cineworld's data display - [view project](https://cinema.netlify.com) or [view GitHub repo](https://github.com/alicegherbison/cinema)
 * strengthening ES6 skills with [ES6 for Everyone](https://www.es6.io)
-* finished a course on [React](https://reactforbeginners.com/) - [view GitHub repo](https://github.com/alicegherbison/catch-of-the-day)
-* finished Wes Bos' [Javascript30](https://javascript30.com/) - build 30 things in 30 days - [explore my demo site](https://alicegherbison.github.io/javascript30)
-* completed the [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design Certification - [view my freeCodeCamp profile](https://www.freecodecamp.org/alicegh)
 
 ## Offline
 
