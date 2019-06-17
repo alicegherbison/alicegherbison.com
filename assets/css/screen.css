@@ -365,7 +365,7 @@ em {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
   #cv {
     width: initial;
   }
