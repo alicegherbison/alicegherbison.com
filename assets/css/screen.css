@@ -269,7 +269,7 @@ em {
 }
 
 #cv a[href^='javascript']:hover {
-  color: var(--color-black);
+  color: var(--color-lemon);
 }
 
 #email {
