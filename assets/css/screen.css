@@ -283,6 +283,10 @@ em {
   color: var(--color-lemon);
 }
 
+#cv dt {
+  color: var(--color-straw);
+}
+
 #email {
   margin-top: 1rem;
 }
