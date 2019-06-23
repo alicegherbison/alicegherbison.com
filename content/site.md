@@ -14,13 +14,13 @@ Even though my website is tiny without much content, I want every design and cod
 
 ## Goals
 
-* Version controlled with Git ✓
-* Statically generated ✓
-* Stored on [GitHub](https://www.github.com/alicegherbison) ✓
-* Served via a CDN ✓
-* Served over HTTPS & HTTP/2 ✓
-* Everything minified ✓
-* Built with a pipeline tool ✓
+* Version controlled with Git &check;
+* Statically generated &check;
+* Stored on [GitHub](https://www.github.com/alicegherbison) &check;
+* Served via a CDN &check;
+* Served over HTTPS &amp; HTTP/2 &check;
+* Everything minified &check;
+* Built with a pipeline tool &check;
 
 ## Reality
 
