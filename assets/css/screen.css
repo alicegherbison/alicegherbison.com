@@ -1,12 +1,4 @@
 :root {
-  --black: #000000;
-  --grey: #f1f1f1;
-  --magenta: #dd1c90;
-  --yellow: #ffee00;
-  --green: #1faa22;
-  --blue: #1c56dd;
-  --indigo: #6542f4;
-
   --color-black: #191919;
   --color-grey-dark: #2c292d;
   --color-grey-mid: #aaaaaa;
@@ -23,17 +15,6 @@
 /* document */
 html {
   font-size: 62.5%;
-}
-
-/* sectioning & structuring */
-body {
-  background-color: var(--color-grey-dark);
-
-  font-size: 1.8rem;
-  font-family: serif;
-  line-height: 1.8;
-  letter-spacing: 0.07rem;
-  color: var(--color-grey-light);
 }
 
 html:before, html:after {
@@ -56,6 +37,17 @@ html:after {
   right: 0;
 
   background-color: var(--color-cyan);
+}
+
+/* sectioning & structuring */
+body {
+  background-color: var(--color-grey-dark);
+
+  font-size: 1.8rem;
+  font-family: serif;
+  line-height: 1.8;
+  letter-spacing: 0.07rem;
+  color: var(--color-grey-light);
 }
 
 body:before, body:after {
