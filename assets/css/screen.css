@@ -149,8 +149,9 @@ li:first-child {
 }
 
 ul {
-  list-style: circle outside;
   margin-left: 1.8rem;
+
+  list-style: circle outside;
 }
 
 ol {
@@ -162,19 +163,6 @@ ol {
 li {
   margin-top: 0.8rem;
   padding-left: 0.9rem;
-}
-
-dt {
-  display: inline;
-
-  margin-right: 1rem;
-
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-dd {
-  display: inline;
 }
 
 img {
@@ -201,7 +189,7 @@ a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
 a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
   cursor: ne-resize;
 
-  color: var(--color-peach);
+  color: var(--color-magenta);
 }
 
 strong {
@@ -223,8 +211,7 @@ em {
   text-shadow: none;
 }
 
-/* CV styles */
-
+/* cv styles */
 #cv {
   width: 80vw;
   max-width: 1024px;
@@ -234,25 +221,6 @@ em {
 
 #cv section {
   margin-top: 4rem;
-}
-
-#cv a {
-  border-bottom: 0.2rem solid var(--color-lilac);
-
-  text-decoration: none;
-  color: var(--color-lilac);
-}
-
-#cv a:hover {
-  border-bottom: none;
-  color: var(--color-cyan);
-}
-
-#cv a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
-#cv a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
-  cursor: ne-resize;
-
-  color: var(--color-magenta);
 }
 
 #cv ul {
@@ -281,10 +249,6 @@ em {
 
 #cv a[href^='javascript']:hover {
   color: var(--color-lemon);
-}
-
-#cv dt {
-  color: var(--color-straw);
 }
 
 #email {
