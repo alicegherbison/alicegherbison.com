@@ -25,3 +25,5 @@ Even though my website is tiny without much content, I want every design and cod
 ## Reality
 
 Built using [Hugo](https://gohugo.io) (v.{{< version >}}) employing Hugo Pipes for CSS minification. [Source code](https://github.com/alicegherbison/alicegherbison.com) on GitHub &amp; deployed via [Netlify](https://www.netlify.com). Domain &amp; email forwarding by [Hostpresto](https://hostpresto.com/my/aff.php?aff=289). Colour scheme from [Monokai Pro](https://www.monokai.pro/).
+
+{{< colours >}}
