@@ -13,6 +13,15 @@ I work at [Ajenta](https://ajenta.net), building video conferencing web applicat
 
 I have an **MSc** in **human computer interaction** and an undergraduate degree in psychology.
 
-You can [find out more about this site](/site/) and some of the principles behind it, [read my 'now' page](/now/) (what I'm up to at the moment), [explore my cv](/cv/) (it's printable) or [check out the privacy policy](/privacy/) (it's a blast).
+You can:
+
+* [find out more about this site](/site/)
+* [read my 'now' page](/now/)
+* [explore my cv](/cv/) (it's printable!)
+* [see projects & course history](/completed/)
+* [find out what things I use](/uses/)
+* or [check out the privacy policy](/privacy/) (a blast)
+
+---
 
 I'm on [Twitter](https://www.twitter.com/alicegherbison), [GitHub](https://github.com/alicegherbison), [LinkedIn](https://linkedin.com/in/alicegherbison/) and reachable by email - hello [at] alicegherbison.com

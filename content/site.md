@@ -7,10 +7,10 @@ title = "About this site"
 
 *Last build: {{< build-date >}}*
 
-Even though my website is tiny without much content, I want every design and code decision to meet the following two principles:
+My tiny little place on the internet is built with every design and code decision meeting the following two principles:
 
 1. Lean and fast as possible - no unnecessary frameworks or third-party scripts, and no design decisions that contradict this
-2. Accessible - meets WCAG 2.0 AA criteria and validates by W3C with no errors
+2. Accessible - [meets WCAG 2.0 AAA criteria](http://wave.webaim.org/report#/https://www.alicegherbison.com/) and [validates by W3C with no errors](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fwww.alicegherbison.com%2F)
 
 ## Goals
 

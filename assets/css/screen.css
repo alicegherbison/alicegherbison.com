@@ -117,7 +117,7 @@ h4 {
   color: var(--color-straw);
 }
 
-/* text & lists */
+/* text & list */
 p,
 ul,
 ol {
@@ -192,13 +192,17 @@ a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover {
   color: var(--color-magenta);
 }
 
+em {
+  font-style: italic;
+}
+
 strong {
   font-weight: bold;
   color: var(--color-straw);
 }
 
-em {
-  font-style: italic;
+hr {
+  margin: 3rem 0;
 }
 
 /* misc */
