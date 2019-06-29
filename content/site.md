@@ -28,6 +28,6 @@ Built using [Hugo](https://gohugo.io) (v.{{< version >}}) employing Hugo Pipes f
 
 ## Colour scheme
 
-The beautiful, bright colour palette is taken and adapted from the colours used in the VSCode [Monokai Pro](https://www.monokai.pro/) theme.
+This beautiful, bright colour palette is taken and adapted from the colours used in the VSCode [Monokai Pro](https://www.monokai.pro/) theme.
 
 {{< colours >}}
