@@ -18,7 +18,7 @@ You can:
 * [find out more about this site](/site/)
 * [read my 'now' page](/now/)
 * [explore my cv](/cv/) (it's printable!)
-* [see projects & course history](/completed/)
+* [see tech projects & course history](/completed/)
 * [find out what things I use](/uses/)
 * or [check out the privacy policy](/privacy/) (a blast)
 
