@@ -24,6 +24,10 @@ My tiny little place on the internet is built with every design and code decisio
 
 ## Reality
 
-Built using [Hugo](https://gohugo.io) (v.{{< version >}}) employing Hugo Pipes for CSS minification. [Source code](https://github.com/alicegherbison/alicegherbison.com) on GitHub &amp; deployed via [Netlify](https://www.netlify.com). Domain &amp; email forwarding by [Hostpresto](https://hostpresto.com/my/aff.php?aff=289). Colour scheme from [Monokai Pro](https://www.monokai.pro/).
+Built using [Hugo](https://gohugo.io) (v.{{< version >}}) employing Hugo Pipes for CSS minification. [Source code](https://github.com/alicegherbison/alicegherbison.com) on GitHub &amp; deployed via [Netlify](https://www.netlify.com). Domain &amp; email forwarding by [Hostpresto](https://hostpresto.com/my/aff.php?aff=289).
+
+## Colour scheme
+
+The beautiful, bright colour palette is taken and adapted from the colours used in the VSCode [Monokai Pro](https://www.monokai.pro/) theme.
 
 {{< colours >}}
