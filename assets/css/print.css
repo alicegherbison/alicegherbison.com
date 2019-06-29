@@ -1,5 +1,5 @@
 :root {
-  --black: #000000;
+  --color-black: #000000;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -52,7 +52,7 @@ h1 {
 
 h2 {
   margin-top: 12pt;
-  border-bottom: 1pt solid var(--black);
+  border-bottom: 1pt solid var(--color-black);
   font-size: 13pt;
   letter-spacing: 1pt;
   text-transform: uppercase;
