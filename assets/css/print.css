@@ -117,14 +117,6 @@ section {
   display: none;
 }
 
-#cv dt {
-  font-weight: 700;
-}
-
-#cv dt, #cv dd {
-  display: inline-block;
-}
-
 #cv ul.horizontal-list {
   margin-left: 0;
 	list-style-position: outside;
