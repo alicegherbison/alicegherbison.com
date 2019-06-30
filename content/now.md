@@ -10,6 +10,7 @@ title = "Now"
 ## Online
 
 * working through ['33 concepts every JavaScript developer should know'](https://github.com/leonardomso/33-js-concepts) [1/33]
+* building a blog for a friend
 
 ## Offline
 
