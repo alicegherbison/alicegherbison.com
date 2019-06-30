@@ -8,12 +8,12 @@ title = "Now"
 *Last updated: {{< date >}}*
 
 ## Online
-* finishing off exploring RESTful APIs by building a cinema times finder to improve Cineworld's data display - [view project](https://cinema.netlify.com) or [view GitHub repo](https://github.com/alicegherbison/cinema)
-* strengthening ES6 skills with [ES6 for Everyone](https://www.es6.io)
+
+* working through ['33 concepts every JavaScript developer should know'](https://github.com/leonardomso/33-js-concepts) [1/33]
 
 ## Offline
 
-* settling into a new job and enjoying learning new things!
+* settling into a new job and enjoying working with React and Redux
 * trying to stretch
 * learning Korean ({{< lang code="ko" text="안녕하세요" >}}!)
 
