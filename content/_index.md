@@ -19,7 +19,6 @@ You can:
 * [read my 'now' page](/now/)
 * [explore my cv](/cv/) (it's printable!)
 * [see tech projects & course history](/completed/)
-* [find out what things I use](/uses/)
 * or [check out the privacy policy](/privacy/) (a blast)
 
 ---
