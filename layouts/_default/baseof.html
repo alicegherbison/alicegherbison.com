@@ -14,6 +14,10 @@
   <meta name="keywords" content="{{ .Site.Params.tags }}" />
   <meta name="author" content="{{ .Site.Params.author }}" />
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   {{- $screen := (slice (resources.Get "css/reset.css") (resources.Get "css/screen.css")) | resources.Concat "css/screen.css" | minify -}}
   <link rel="stylesheet" href="{{ $screen.Permalink }}" type="text/css" media="screen" />
   {{- block "css" . -}}{{- end -}}
