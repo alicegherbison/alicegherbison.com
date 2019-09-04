@@ -10,11 +10,11 @@ title = "Now"
 ## Online
 
 * working through ['33 concepts every JavaScript developer should know'](https://github.com/leonardomso/33-js-concepts) [1/33]
-* building a blog for a friend
+* beginning a new personal project for creating a family tree
 
 ## Offline
 
-* settling into a new job and enjoying working with React and Redux
+* returning to exercise post-injury
 * trying to stretch
 * learning Korean ({{< lang code="ko" text="안녕하세요" >}}!)
 
