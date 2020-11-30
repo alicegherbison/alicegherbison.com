@@ -1,5 +1,6 @@
 +++
 title = "Completed"
+draft = true
 [emoji]
 	icon = "✅"
 	label = "checkmark"

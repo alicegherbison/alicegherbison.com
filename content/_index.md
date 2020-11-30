@@ -7,20 +7,21 @@ title = "Hello"
 
 I'm **Alice**, a **front-end developer** based in Edinburgh, Scotland.
 
-I'm highly **detailed-oriented, empathetic and passionate** about learning new skills and web technologies. My background is in user-centred interaction design of **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
+I'm highly **detailed-oriented, empathetic and passionate** about learning new skills and web technologies.
 
-I work at [Ajenta](https://ajenta.net), building video conferencing web applications in **React**. My role sits as a **link between the development and UX teams**, where I work closely with designers to ensure the finished products have a high standard of user experience.
+My background is in user-centred interaction design of **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
 
-I have an **MSc** in **human computer interaction** and an undergraduate degree in psychology.
+I work at [Ajenta](https://ajenta.net), building video conferencing web applications for the education sector in **React**.
+
+I have a **MSc** in **human computer interaction** and an undergraduate degree in psychology.
 
 You can:
 
 * [find out more about this site](/site/)
 * [read my 'now' page](/now/)
 * [explore my cv](/cv/) (it's printable!)
-* [see tech projects & course history](/completed/)
 * or [check out the privacy policy](/privacy/) (a blast)
 
 ---
 
-I'm on [Twitter](https://www.twitter.com/alicegherbison), [GitHub](https://github.com/alicegherbison), [LinkedIn](https://linkedin.com/in/alicegherbison/) and reachable by email - hello [at] alicegherbison.com
+I am on [Twitter](https://www.twitter.com/alicegherbison), [GitHub](https://github.com/alicegherbison), [LinkedIn](https://linkedin.com/in/alicegherbison/) and reachable by email - hello [at] alicegherbison.com
