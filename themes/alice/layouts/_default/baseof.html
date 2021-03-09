@@ -1,39 +1,11 @@
 <!DOCTYPE html>
 {{- "<!-- if you're snoopin', why not take a sneaky peak at my github?: https://www.github.com/alicegherbison -->" | safeHTML -}}
-<html lang="en-GB">
-
-<head>
-  {{- "<!--[if lt IE 9]>" | safeHTML -}}
-  <script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script>{{- "<![endif]-->" | safeHTML -}}
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <title>{{ .Title }} - ●○ {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}" />
-  <meta name="keywords" content="{{ .Site.Params.tags }}" />
-  <meta name="author" content="{{ .Site.Params.author }}" />
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  {{- $screen := (slice (resources.Get "css/reset.css") (resources.Get "css/screen.css")) | resources.Concat "css/screen.css" | minify -}}
-  <link rel="stylesheet" href="{{ $screen.Permalink }}" type="text/css" media="screen" />
-  {{- block "css" . -}}{{- end -}}
-  {{- "<!-- Google Tag Manager -->" | safeHTML -}}
-  <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-PPR3CQ9');
-  </script>
-  {{- "<!-- End Google Tag Manager -->" | safeHTML -}}
-</head>
-
+<html lang="{{- .Site.LanguageCode -}}">
+{{- partial "head.html" . -}}
 <body>
-  {{- "<!-- Google Tag Manager (noscript) -->" | safeHTML -}}<noscript><iframe
-      src="https://www.googletagmanager.com/ns.html?id=GTM-PPR3CQ9" height="0" width="0"
-      style="display: none; visibility: hidden;"></iframe></noscript>{{- "<!-- End Google Tag Manager (noscript) -->" | safeHTML -}}
+  {{- partial "analytics-noscript.html" . -}}
   {{- block "header" . -}}{{- end -}}
   {{- block "main" . -}}{{- end -}}
-  <script>console.log('if you\'re snoopin\', why not take a sneaky peak at my github?: https://www.github.com/alicegherbison')</script>
+  {{- partial "console-log.html" . -}}
 </body>
-
 </html>

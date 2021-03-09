@@ -1,6 +1,6 @@
 baseURL = "https://www.alicegherbison.com/"
 defaultContentLanguage = "en"
-languageCode = "en"
+languageCode = "en-GB"
 title = "Alice G Herbison"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 theme = "alice"
