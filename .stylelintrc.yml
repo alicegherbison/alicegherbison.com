@@ -1,0 +1,499 @@
+---
+extends:
+  - stylelint-config-standard
+plugins:
+  - stylelint-scss
+  - stylelint-order
+rules:
+  indentation: 2
+  string-quotes: double
+  no-duplicate-selectors: true
+  no-descending-specificity:
+    - true
+    - severity: warning
+  at-rule-no-unknown:
+  color-hex-case: lower
+  color-hex-length: long
+  color-named:
+    - never
+    - severity: warning
+  color-no-hex:
+    - true
+    - severity: warning
+  selector-max-id:
+    - 0
+    - severity: warning
+  selector-combinator-space-after: always
+  selector-attribute-quotes: always
+  selector-attribute-operator-space-before: never
+  selector-attribute-operator-space-after: never
+  selector-attribute-brackets-space-inside: never
+  declaration-block-trailing-semicolon: always
+  declaration-no-important:
+    - true
+    - severity: warning
+  declaration-colon-newline-after:
+  declaration-colon-space-before: never
+  declaration-colon-space-after: always-single-line
+  declaration-empty-line-before:
+  declaration-property-unit-blacklist:
+    - font-size:
+        - em
+        - px
+      height:
+        - em
+        - px
+      "/^margin/":
+        - em
+        - px
+      min-height:
+        - em
+        - px
+      min-width:
+        - em
+        - px
+      "/^padding/":
+        - em
+        - px
+      stroke-width:
+        - px
+      width:
+        - em
+        - px
+    - severity: warning
+  property-no-vendor-prefix:
+    - true
+    - severity: warning
+  value-no-vendor-prefix: true
+  value-keyword-case:
+    - lower
+    - ignoreProperties:
+        - "/^(--)/"
+        - font-family
+  number-leading-zero: always
+  function-url-quotes: always
+  font-weight-notation: numeric
+  font-family-name-quotes:
+    - always-where-recommended
+    - severity: warning
+  comment-whitespace-inside: always
+  comment-empty-line-before:
+    - always
+    - except:
+        - first-nested
+  at-rule-no-vendor-prefix: true
+  rule-empty-line-before:
+    - always
+    - except:
+        - first-nested
+  selector-pseudo-element-colon-notation: double
+  selector-pseudo-class-parentheses-space-inside: never
+  selector-no-vendor-prefix: true
+  media-feature-range-operator-space-before: always
+  media-feature-range-operator-space-after: always
+  media-feature-parentheses-space-inside: never
+  media-feature-name-no-vendor-prefix: true
+  media-feature-colon-space-before: never
+  media-feature-colon-space-after: always
+  scss/at-rule-no-unknown: true
+  order/order:
+    - custom-properties
+    - declarations
+    - type: rule
+      selector: "/^&/"
+    - type: rule
+      selector: "/^&:w/"
+    - at-rules
+    - rules
+  order/properties-order:
+    - groupName: writing modes
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - writing-mode
+        - direction
+        - text-combine-upright
+        - text-orientation
+    - groupName: all
+      emptyLineBefore: always
+      properties:
+        - all
+    - groupName: interaction
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - user-select
+        - pointer-events
+        - touch-action
+        - cursor
+        - resize
+        - scroll-behavior
+        - scroll-snap-type
+        - scroll-snap-align
+        - scroll-margin
+        - scroll-margin-top
+        - scroll-margin-right
+        - scroll-margin-bottom
+        - scroll-margin-left
+        - scroll-margin-block
+        - scroll-margin-block-start
+        - scroll-margin-block-end
+        - scroll-margin-inline
+        - scroll-margin-inline-start
+        - scroll-margin-inline-end
+        - scroll-padding
+        - scroll-padding-top
+        - scroll-padding-right
+        - scroll-padding-bottom
+        - scroll-padding-left
+        - scroll-padding-block
+        - scroll-padding-block-start
+        - scroll-padding-block-end
+        - scroll-padding-inline
+        - scroll-padding-inline-start
+        - scroll-padding-inline-end
+    - groupName: ui appearance
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - zoom
+        - appearance
+        - box-sizing
+        - outline
+        - outline-style
+        - outline-width
+        - outline-color
+        - outline-offset
+        - caret-color
+        - text-overflow
+        - will-change
+    - groupName: generated content
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - content
+        - quotes
+    - groupName: fragmentation
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - break-before
+        - break-inside
+        - break-after
+        - widows
+        - orphans
+    - groupName: position
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - position
+        - z-index
+        - top
+        - bottom
+        - left
+        - right
+        - float
+        - clear
+    - groupName: display and visibility
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - display
+        - visibility
+    - groupName: box layout
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - flex-flow
+        - flex-direction
+        - flex-wrap
+        - order
+        - flex
+        - flex-grow
+        - flex-shrink
+        - flex-basis
+        - columns
+        - column-width
+        - column-count
+        - column-span
+        - column-fill
+        - column-rule
+        - column-rule-width
+        - column-rule-style
+        - column-rule-color
+        - grid
+        - grid-template
+        - grid-template-rows
+        - grid-template-columns
+        - grid-template-areas
+        - grid-auto-rows
+        - grid-auto-columns
+        - grid-auto-flow
+        - grid-area
+        - grid-column
+        - grid-row
+        - grid-row-start
+        - grid-column-start
+        - grid-row-end
+        - grid-column-end
+        - gap
+        - grid-gap
+        - column-gap
+        - grid-column-gap
+        - row-gap
+        - grid-row-gap
+    - groupName: box alignment
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - place-content
+        - place-items
+        - place-self
+        - justify-items
+        - justify-content
+        - justify-self
+        - align-items
+        - align-content
+        - align-self
+        - text-anchor
+    - groupName: clipping and wrapping
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - overflow
+        - overflow-x
+        - overflow-y
+        - overflow-wrap
+        - clip
+        - clip-path
+        - shape-outside
+        - shape-image-threshold
+        - shape-margin
+        - offset-path
+    - groupName: table
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - table-layout
+        - caption-side
+        - border-collapse
+        - border-spacing
+        - empty-cells
+        - vertical-align
+    - groupName: box model
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - margin
+        - margin-top
+        - margin-right
+        - margin-bottom
+        - margin-left
+        - box-shadow
+        - border
+        - border-width
+        - border-style
+        - border-color
+        - border-top
+        - border-top-width
+        - border-top-style
+        - border-top-color
+        - border-right
+        - border-right-width
+        - border-right-style
+        - border-right-color
+        - border-bottom
+        - border-bottom-width
+        - border-bottom-style
+        - border-bottom-color
+        - border-left
+        - border-left-width
+        - border-left-style
+        - border-left-color
+        - border-image
+        - border-image-source
+        - border-image-slice
+        - border-image-width
+        - border-image-outset
+        - border-image-repeat
+        - border-radius
+        - border-top-left-radius
+        - border-top-right-radius
+        - border-bottom-right-radius
+        - border-bottom-left-radius
+        - width
+        - max-width
+        - min-width
+        - height
+        - max-height
+        - min-height
+        - padding
+        - padding-top
+        - padding-right
+        - padding-bottom
+        - padding-left
+    - groupName: counter styles
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - list-style
+        - list-style-type
+        - list-style-image
+        - list-style-position
+        - counter-increment
+        - counter-reset
+        - counter-set
+        - system
+        - symbols
+        - additive-symbols
+        - negative
+        - prefix
+        - suffix
+        - range
+        - pad
+        - speak
+    - groupName: text layout
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - white-space
+        - text-align
+        - text-align-last
+        - text-justify
+        - text-indent
+        - word-spacing
+        - word-break
+        - line-break
+        - overflow-wrap
+        - hypens
+        - letter-spacing
+    - groupName: typography
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - line-height
+        - font
+        - font-size
+        - font-variant
+        - font-variant-caps
+        - font-variant-numeric
+        - font-variant-alternates
+        - font-variant-ligatures
+        - font-variant-east-asian
+        - font-variant-position
+        - font-feature-settings
+        - font-variation-settings
+        - font-optical-sizing
+        - font-synthesis
+        - font-stretch
+        - font-size-adjust
+        - font-family
+        - font-style
+        - font-weight
+        - font-kerning
+        - font-language-override
+        - text-transform
+        - color
+        - color-adjust
+    - groupName: text decorations
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - text-decoration
+        - text-decoration-line
+        - text-decoration-color
+        - text-decoration-style
+        - text-decoration-thickness
+        - text-underline-position
+        - text-emphasis
+        - text-emphasis-style
+        - text-emphasis-color
+        - text-emphasis-position
+        - text-rendering
+        - text-shadow
+    - groupName: animation
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - animation
+        - animation-name
+        - animation-duration
+        - animation-timing-function
+        - animation-delay
+        - animation-iteration-count
+        - animation-direction
+        - animation-fill-mode
+        - animation-play-state
+        - transition
+        - transition-property
+        - transition-duration
+        - transition-timing-function
+        - transition-delay
+    - groupName: 3d effects
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - transform
+        - transform-origin
+        - perspective
+        - perspective-origin
+    - groupName: 2d effects
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - filter
+        - opacity
+        - image-rendering
+        - color-rendering
+        - shape-rendering
+        - color-interpolation
+        - isolation
+        - mix-blend-mode
+        - mask
+        - mask-image
+        - mask-mode
+        - mask-repeat
+        - mask-position
+        - mask-clip
+        - mask-origin
+        - mask-size
+        - mask-composite
+        - vector-effect
+    - groupName: drawing
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - marker
+        - marker-start
+        - marker-mid
+        - marker-end
+    - groupName: background and fills
+      emptyLineBefore: always
+      noEmptyLineBetween: true
+      properties:
+        - background
+        - background-clip
+        - background-color
+        - background-image
+        - background-origin
+        - background-position
+        - background-repeat
+        - background-size
+        - background-attachment
+        - background-blend-mode
+        - object-fit
+        - object-position
+        - paint-order
+        - fill
+        - fill-rule
+        - fill-opacity
+        - stroke
+        - stroke-width
+        - stroke-dasharray
+        - stroke-dashoffset
+        - stroke-linecap
+        - stroke-linejoin
+        - stroke-miterlimit
+        - stroke-opacity
+        - stop-color
+        - stop-opacity
