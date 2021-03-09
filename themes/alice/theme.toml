@@ -1,0 +1,12 @@
+name = "alice"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Alice G Herbison"
+  homepage = "https://www.alicegherbison.com"

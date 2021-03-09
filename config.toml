@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "Alice G Herbison"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "alice"
 
 [params]
 	author = "Alice G Herbison"
