@@ -1,17 +1,17 @@
-{{ define "css" }}
+{{- define "css" -}}
 {{ $print := resources.Get "css/print.css" | minify }}
-<link rel="stylesheet" href="{{ $print.Permalink }}" type="text/css" media="print" />
-{{ end }}
-{{ define "main" }}
+<link rel="stylesheet" href="{{- $print.Permalink -}}" type="text/css" media="print" />
+{{- end -}}
+{{- define "main" -}}
 <main id="cv">
-  {{ partial "back.html" . }}
+  {{- partial "back.html" . -}}
   <section id="intro">
     <h1>Alice G Herbison</h1>
     <div id="email">hello<span class="screen-only">&nbsp;[at]&nbsp;</span><span class="print-only">@</span><a
         href="https://www.alicegherbison.com">alicegherbison.com</a></div>
     <div id="social">
-      <a href="https://www.github.com/alicegherbison" target="_blank">github</a> - <a href="https://codepen.io/alicegh/"
-        target="_blank">codepen</a> - <a href="https://www.linkedin.com/in/alicegherbison/" target="_blank">linkedin</a>
+      <a href="https://www.github.com/alicegherbison" rel=”noopener noreferrer” target="_blank">github</a> - <a href="https://codepen.io/alicegh/" rel=”noopener noreferrer”
+        target="_blank">codepen</a> - <a href="https://www.linkedin.com/in/alicegherbison/" rel=”noopener noreferrer” target="_blank">linkedin</a>
     </div>
   </section>
   <section id="about" class="block">
@@ -312,6 +312,6 @@
     <a href="javascript:window.print()" id="printme">print me</a>
   </section>
 </main>
-{{ $script := resources.Get "js/script.js" | minify }}
-<script src="{{ $script.Permalink }}" type="text/javascript"></script>
-{{ end }}
+{{- $script := resources.Get "js/script.js" | minify -}}
+<script src="{{- $script.Permalink -}}" type="text/javascript"></script>
+{{- end -}}

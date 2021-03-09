@@ -1,11 +1,11 @@
-{{ define "header"}}
+{{- define "header" -}}
 <header>
-  {{ partial "back.html" . }}
+  {{- partial "back.html" . -}}
 </header>
-{{ end }}
-{{ define "main"}}
+{{- end -}}
+{{- define "main" -}}
 <main>
-  {{ partial "title.html" . }}
-  {{ .Content }}
+  {{- partial "title.html" . -}}
+  {{- .Content -}}
 </main>
-{{ end }}
+{{- end -}}
