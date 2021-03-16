@@ -1,0 +1,143 @@
+/* stylelint-disable no-descending-specificity */
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-straw);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h2 {
+  margin-top: 2rem;
+
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--color-straw);
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  & + p,
+  + ol,
+  + p {
+    margin-top: 0.5rem;
+  }
+}
+
+h3 {
+  margin-top: 1.8rem;
+
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-straw);
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  & + p,
+  + ol,
+  + ul {
+    margin-top: 0.5rem;
+  }
+}
+
+h4 {
+  margin-top: 1.6rem;
+
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-straw);
+
+  & + p,
+  + ul {
+    margin-top: 0;
+  }
+}
+
+p {
+  margin-top: 1.8rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  & + ul {
+    margin-top: 0.5rem;
+  }
+}
+
+ul {
+  margin-top: 1.8rem;
+  margin-left: 1.8rem;
+
+  list-style: circle outside;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+ol {
+  margin-top: 1.8rem;
+  margin-left: 1.8rem;
+
+  list-style: decimal outside;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+li {
+  margin-top: 0.8rem;
+  padding-left: 0.9rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+a {
+  border-bottom: 0.2rem solid var(--color-lilac);
+
+  font-weight: 700;
+  color: var(--color-lilac);
+
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: none;
+
+    color: var(--color-cyan);
+
+    text-decoration: none;
+  }
+}
+
+/* stylelint-disable block-opening-brace-space-before */
+
+a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
+a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover
+{
+  cursor: ne-resize;
+
+  color: var(--color-magenta);
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+  color: var(--color-straw);
+}
+
+hr {
+  margin: 3rem 0;
+}

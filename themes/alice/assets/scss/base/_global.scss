@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%;
+
+  &::before,
+  ::after {
+    content: "";
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+    width: 0.8rem;
+  }
+
+  &::before {
+    left: 0;
+
+    background-color: var(--color-magenta);
+  }
+
+  &::after {
+    right: 0;
+
+    background-color: var(--color-cyan);
+  }
+}
+
+body {
+  letter-spacing: 0.07rem;
+
+  line-height: 1.8;
+  font-size: 1.8rem;
+  font-family: serif;
+  color: var(--color-grey-light);
+
+  background-color: var(--color-grey-dark);
+
+  &::before,
+  &::after {
+    content: "";
+
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    height: 0.8rem;
+
+    background-image: linear-gradient(
+      to right,
+      var(--color-magenta),
+      var(--color-lemon),
+      var(--color-lime),
+      var(--color-cyan)
+    );
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+:lang(ko) {
+  font-family: sans-serif;
+}
+
+::selection {
+  text-shadow: none;
+
+  background-color: var(--color-lemon);
+}
