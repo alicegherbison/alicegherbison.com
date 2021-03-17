@@ -3,29 +3,27 @@
 <link rel="stylesheet" href="{{- $print.Permalink -}}" type="text/css" media="print" />
 {{- end -}}
 {{- define "main" -}}
-<main id="cv">
+<main class="cv">
   {{- partial "back.html" . -}}
-  <section id="intro">
+  <section class="intro">
     <h1>Alice G Herbison</h1>
-    <div id="email">hello<span class="screen-only">&nbsp;[at]&nbsp;</span><span class="print-only">@</span><a
-        href="https://www.alicegherbison.com">alicegherbison.com</a></div>
-    <div id="social">
+    <p class="email">hello<span class="screen-only">&nbsp;[at]&nbsp;</span><span class="print-only">@</span><a
+        href="https://www.alicegherbison.com">alicegherbison.com</a></p>
+    <p class="social">
       <a href="https://www.github.com/alicegherbison" rel=”noopener noreferrer” target="_blank">github</a> - <a href="https://codepen.io/alicegh/" rel=”noopener noreferrer”
         target="_blank">codepen</a> - <a href="https://www.linkedin.com/in/alicegherbison/" rel=”noopener noreferrer” target="_blank">linkedin</a>
-    </div>
+    </p>
   </section>
-  <section id="about" class="block">
-    <p><strong>Front-end developer</strong> based in Edinburgh. Background in user-centred interaction design and
-      prototyping of <strong>accessible, responsive and friendly interfaces</strong> that meet both <strong>user and
-        client needs</strong>. Highly <strong>detailed-oriented, empathetic and passionate</strong> about learning new
-      skills and web technologies.</p>
+  <section class="block">
+    <h2 class="sr">About</h2>
+    <p><strong>Front-end developer</strong> based in Edinburgh. Background in user-centred interaction design and prototyping of <strong>accessible, responsive and friendly interfaces</strong> that meet both <strong>user and client needs</strong>. Highly <strong>detailed-oriented, empathetic and passionate</strong> about learning new skills and web technologies.</p>
   </section>
-  <section id="skills">
+  <section>
     <h2>Skills</h2>
-    <div class="block group-list">
+    <div class="block columns">
       <div>
         <div>
-          <h3>Languages</h3>
+          <h3 class="skill-group">Languages</h3>
           <ul class="horizontal-list">
             <li>TypeScript</li>
             <li>JavaScript (ES6)</li>
@@ -34,14 +32,14 @@
           </ul>
         </div>
         <div>
-          <h3>Libraries</h3>
+          <h3 class="skill-group">Libraries</h3>
           <ul class="horizontal-list">
             <li>React</li>
             <li>Redux</li>
           </ul>
         </div>
         <div>
-          <h3>Frameworks</h3>
+          <h3 class="skill-group">Frameworks</h3>
           <ul class="horizontal-list">
             <li>JQuery</li>
             <li>Bootstrap</li>
@@ -49,7 +47,7 @@
           </ul>
         </div>
         <div>
-          <h3>Templating</h3>
+          <h3 class="skill-group">Templating</h3>
           <ul class="horizontal-list">
             <li>Hugo</li>
             <li>Jekyll</li>
@@ -58,7 +56,7 @@
           </ul>
         </div>
         <div>
-          <h3>Tools</h3>
+          <h3 class="skill-group">Tools</h3>
           <ul class="horizontal-list">
             <li>Git</li>
             <li>npm</li>
@@ -68,7 +66,7 @@
           </ul>
         </div>
         <div>
-          <h3>Methodologies</h3>
+          <h3 class="skill-group">Methodologies</h3>
           <ul class="horizontal-list">
             <li>agile (SCRUM, Kanban)</li>
             <li>BEM</li>
@@ -78,14 +76,14 @@
       </div>
       <div>
         <div>
-          <h3>Analytics</h3>
+          <h3 class="skill-group">Analytics</h3>
           <ul class="horizontal-list">
             <li>Google Analytics, Tag Manager &amp; Data Studio</li>
             <li>Hotjar</li>
           </ul>
         </div>
         <div>
-          <h3>Software</h3>
+          <h3 class="skill-group">Software</h3>
           <ul class="horizontal-list">
             <li>VS Code</li>
             <li>Sketch</li>
@@ -96,7 +94,7 @@
           </ul>
         </div>
         <div>
-          <h3>Processes</h3>
+          <h3 class="skill-group">Processes</h3>
           <ul class="horizontal-list">
             <li>usability testing &amp; prototyping</li>
             <li>user research</li>
@@ -108,7 +106,7 @@
       </div>
     </div>
   </section>
-  <section id="experience">
+  <section>
     <h2>Experience</h2>
     <details class="block" open>
       <summary>
@@ -211,7 +209,7 @@
       </ul>
     </details>
   </section>
-  <section id="education">
+  <section>
     <h2>Education</h2>
     <details class="block" open>
       <summary>
@@ -258,7 +256,7 @@
           visibility on the qualitative impression of stereopsis in two-dimensional images</em>.</p>
     </details>
   </section>
-  <section id="learning">
+  <section>
     <h2>Personal projects &amp; independent learning</h2>
     <div class="block">
       <h3>Cinema times finder</h3>
@@ -283,7 +281,7 @@
           href="https://www.alicegherbison.com/site/" rel="noopener noreferrer" target="_blank">learn about site principles</a>.</p>
     </div>
   </section>
-  <section id="goals">
+  <section>
     <h2>Upcoming goals</h2>
     <div class="block">
       <p>A few future projects:</p>
@@ -293,7 +291,7 @@
       </ul>
     </div>
   </section>
-  <section id="speaking">
+  <section>
     <h2>Speaking</h2>
     <div class="block">
       <h3><a href="https://www.slideshare.net/cellosignal/signals-alice-herbison-drupal-camp-scotland-2018-98272319"
@@ -308,7 +306,7 @@
           March 2018</em></span>
     </div>
   </section>
-  <section id="print" class="screen-only">
+  <section class="screen-only print">
     <a href="javascript:window.print()" id="printme">print me</a>
   </section>
 </main>

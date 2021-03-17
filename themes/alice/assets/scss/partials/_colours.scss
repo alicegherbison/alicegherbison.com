@@ -1,0 +1,60 @@
+.colours {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.2rem;
+
+  margin-top: 3rem;
+}
+
+.colour {
+  border: 0.8rem solid var(--color-straw);
+  width: 100%;
+  min-width: 7.6rem;
+  height: 7.6rem;
+}
+
+.lilac {
+  background-color: var(--color-lilac);
+}
+
+.magenta {
+  background-color: var(--color-magenta);
+}
+
+.peach {
+  background-color: var(--color-peach);
+}
+
+.lemon {
+  background-color: var(--color-lemon);
+}
+
+.lime {
+  background-color: var(--color-lime);
+}
+
+.cyan {
+  background-color: var(--color-cyan);
+}
+
+.straw {
+  background-color: var(--color-straw);
+}
+
+.grey-light {
+  background-color: var(--color-grey-light);
+}
+
+.grey-mid {
+  background-color: var(--color-grey-mid);
+}
+
+.grey-dark {
+  background-color: var(--color-grey-dark);
+}
+
+.black {
+  background-color: var(--color-black);
+}

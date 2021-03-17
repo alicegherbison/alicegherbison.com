@@ -2,7 +2,7 @@ html {
   font-size: 62.5%;
 
   &::before,
-  ::after {
+  &::after {
     content: "";
 
     position: fixed;
