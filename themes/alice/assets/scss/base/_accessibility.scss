@@ -1,10 +1,12 @@
-.sr {
+.sr:not(:focus):not(:active) {
   position: absolute;
-  top: auto;
-  left: -1000rem;
 
   overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
 
   width: 0.1rem;
   height: 0.1rem;
+
+  white-space: nowrap;
 }

@@ -5,12 +5,10 @@
   font-size: 1.5rem;
 
   section {
-    margin-top: 4rem;
-  }
+    margin-bottom: 4rem;
 
-  ul {
-    li {
-      margin-top: 0.6rem;
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 
@@ -23,21 +21,9 @@
       cursor: pointer;
     }
 
-    &:focus {
-      outline: none;
-    }
-
     h3 {
       display: inline;
     }
-  }
-
-  a[href^="javascript"]:hover {
-    color: var(--color-lemon);
-  }
-
-  .group-list h3 p {
-    margin-top: 0;
   }
 }
 
