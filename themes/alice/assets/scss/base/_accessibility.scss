@@ -9,4 +9,8 @@
   height: 0.1rem;
 
   white-space: nowrap;
+
+  & + * {
+    margin-top: 0;
+  }
 }

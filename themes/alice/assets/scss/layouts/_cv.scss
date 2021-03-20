@@ -1,14 +1,19 @@
+@import "../utils/variables";
+
 .cv {
-  width: 80vw;
   max-width: 1024px;
 
   font-size: 1.5rem;
 
-  section {
-    margin-bottom: 4rem;
+  @media (min-width: $breakpoint) {
+    width: 80vw;
+  }
 
-    &:last-child {
-      margin-bottom: 0;
+  section {
+    margin-top: 4rem;
+
+    &:first-child {
+      margin-top: 0;
     }
   }
 
@@ -49,16 +54,6 @@
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
-  .cv {
-    width: initial;
-  }
-
-  .columns {
-    column-count: unset;
-  }
-}
-
 .block {
   margin-top: 1.2rem;
   border-left: 0.5rem solid var(--color-lilac);
@@ -67,8 +62,20 @@
   background: var(--color-black);
 }
 
-.columns {
-  column-count: 2;
+.skills {
+  column-count: 1;
+
+  margin-left: 0;
+
+  list-style-type: none;
+
+  @media (min-width: $breakpoint) {
+    column-count: 2;
+  }
+}
+
+.skill-group {
+  padding-left: 0;
 }
 
 .intro {
@@ -83,7 +90,7 @@
   margin-top: 0;
 }
 
-.skill-group {
+.skill-group-title {
   display: inline;
 
   margin-top: 0;
