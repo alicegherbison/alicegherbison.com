@@ -5,10 +5,6 @@
 
   font-size: 1.5rem;
 
-  @media (min-width: $breakpoint) {
-    width: 80vw;
-  }
-
   section {
     margin-top: 4rem;
 
@@ -32,24 +28,6 @@
   }
 }
 
-.horizontal-list {
-  display: inline;
-
-  margin-left: 0;
-
-  li {
-    display: inline;
-
-    padding-left: 0;
-
-    &:not(:last-child)::after {
-      content: " \2219 ";
-
-      display: inline;
-    }
-  }
-}
-
 .print-only {
   display: none;
 }
@@ -60,6 +38,18 @@
   padding: 2.4rem;
 
   background: var(--color-black);
+}
+
+.intro {
+  text-align: center;
+}
+
+.email {
+  margin-top: 1rem;
+}
+
+.social {
+  margin-top: 0;
 }
 
 .skills {
@@ -78,18 +68,6 @@
   padding-left: 0;
 }
 
-.intro {
-  text-align: center;
-}
-
-.email {
-  margin-top: 1rem;
-}
-
-.social {
-  margin-top: 0;
-}
-
 .skill-group-title {
   display: inline;
 
@@ -97,6 +75,24 @@
   margin-right: 1rem;
 
   font-size: 1.5rem;
+}
+
+.horizontal-list {
+  display: inline;
+
+  margin-left: 0;
+
+  li {
+    display: inline;
+
+    padding-left: 0;
+
+    &:not(:last-child)::after {
+      content: " \2219 ";
+
+      display: inline;
+    }
+  }
 }
 
 .print {
