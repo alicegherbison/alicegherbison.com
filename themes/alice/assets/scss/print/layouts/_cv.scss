@@ -1,9 +1,11 @@
 .cv {
   a {
+    border-bottom: 1pt solid var(--color-black);
+
     font-weight: 700;
     color: var(--color-black);
 
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   summary {
