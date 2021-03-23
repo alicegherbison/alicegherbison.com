@@ -5,14 +5,15 @@ title = "Now"
 	label = "fire"
 +++
 
-*Last updated: {{< date >}}*
+_Last updated: {{< date >}}_
 
 ## Online
 
-* finishing part two of [Complete Intro to React](https://github.com/alicegherbison/complete-intro-to-react) from [FrontendMasters](https://www.frontendmasters.com)
+- working on [Introduction to GraphQL](https://github.com/alicegherbison/introduction-to-graphql) from [FrontendMasters](https://www.frontendmasters.com)
 
 ## Offline
 
-* hibernating for the winter
+- playing the piano
+- learning Korean
 
 This page is inspired by the [Now Project](https://nownownow.com/about).
