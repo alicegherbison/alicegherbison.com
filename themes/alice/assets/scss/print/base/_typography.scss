@@ -1,0 +1,83 @@
+/* stylelint-disable no-descending-specificity */
+
+h1 {
+  margin-bottom: 4pt;
+
+  letter-spacing: 1pt;
+
+  font-size: 19pt;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 12pt;
+  border-bottom: 1pt solid var(--color-black);
+
+  letter-spacing: 1pt;
+
+  font-size: 13pt;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 11pt;
+
+  font-size: 11pt;
+
+  & + p,
+  & + ul {
+    margin-top: 5pt;
+  }
+}
+
+h4 {
+  margin-top: 7pt;
+
+  font-size: 9pt;
+
+  & + p,
+  & + ul {
+    margin-top: 2pt;
+  }
+}
+
+p {
+  margin-top: 8pt;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  & + ul {
+    margin-top: 5pt;
+  }
+}
+
+ol {
+  margin-top: 8pt;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+ul {
+  margin-top: 8pt;
+  margin-left: 12pt;
+  padding: 0;
+
+  list-style: circle outside;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+li {
+  margin-top: 2pt;
+  padding-left: 2pt;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}

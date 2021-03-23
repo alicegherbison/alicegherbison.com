@@ -1,21 +1,17 @@
-{{- define "css" -}}
-{{ $print := resources.Get "css/print.css" | minify }}
-<link rel="stylesheet" href="{{- $print.Permalink -}}" type="text/css" media="print" />
-{{- end -}}
 {{- define "main" -}}
 <main class="cv">
   {{- partial "back.html" . -}}
   <section class="intro">
     <h1>Alice G Herbison</h1>
-    <p class="email">hello<span class="screen-only">&nbsp;[at]&nbsp;</span><span class="print-only">@</span><a
-        href="https://www.alicegherbison.com">alicegherbison.com</a></p>
-    <p class="social">
+    <div class="email">hello<span class="screen-only">&nbsp;[at]&nbsp;</span><span class="print-only">@</span><a
+        href="https://www.alicegherbison.com">alicegherbison.com</a></div>
+    <div class="social">
       <a href="https://www.github.com/alicegherbison" rel=”noopener noreferrer” target="_blank">github</a> - <a href="https://codepen.io/alicegh/" rel=”noopener noreferrer”
         target="_blank">codepen</a> - <a href="https://www.linkedin.com/in/alicegherbison/" rel=”noopener noreferrer” target="_blank">linkedin</a>
-    </p>
+    </div>
   </section>
   <section class="block">
-    <h2 class="sr">About</h2>
+    <h2 class="sr screen-only">About</h2>
     <p><strong>Front-end developer</strong> based in Edinburgh. Background in user-centred interaction design and prototyping of <strong>accessible, responsive and friendly interfaces</strong> that meet both <strong>user and client needs</strong>. Highly <strong>detailed-oriented, empathetic and passionate</strong> about learning new skills and web technologies.</p>
   </section>
   <section>

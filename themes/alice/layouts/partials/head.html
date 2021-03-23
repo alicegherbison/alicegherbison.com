@@ -14,11 +14,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <!-- {{- $screen := (slice (resources.Get "css/reset.css") (resources.Get "css/screen.css")) | resources.Concat "css/screen.css" | minify -}}
-  <link rel="stylesheet" href="{{ $screen.Permalink }}" type="text/css" media="screen" /> -->
-  {{- $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) | fingerprint -}}
-  <link rel="stylesheet" href="{{- $style.RelPermalink -}}" type="text/css" />
-  {{- block "css" . -}}{{- end -}}
+  {{- $screen := resources.Get "scss/screen/screen.scss" | toCSS (dict "targetPath" "css/screen.css" "outputStyle" "compressed" "enableSourceMap" true) | fingerprint -}}
+  <link rel="stylesheet" href="{{- $screen.RelPermalink -}}"  media="screen" type="text/css" />
+  {{- $print := resources.Get "scss/print/print.scss" | toCSS (dict "targetPath" "css/print.css" "outputStyle" "compressed" "enableSourceMap" true) | fingerprint -}}
+  <link rel="stylesheet" href="{{- $print.RelPermalink -}}"  media="print" type="text/css" />
   {{- partial "analytics-script.html" . -}}
   {{- hugo.Generator -}}
 </head>

@@ -1,0 +1,66 @@
+.cv {
+  a {
+    font-weight: 700;
+    color: var(--color-black);
+
+    text-decoration: underline;
+  }
+
+  summary {
+    list-style: none;
+
+    &:-webkit-details-marker {
+      display: none;
+    }
+  }
+}
+
+.screen-only {
+  display: none;
+}
+
+.block {
+  margin-top: 11pt;
+}
+
+.intro {
+  text-align: center;
+}
+
+.skills {
+  column-count: 2;
+
+  margin-left: 0;
+
+  list-style-type: none;
+}
+
+.skill-group-title {
+  display: inline;
+
+  margin-top: 0;
+  margin-right: 4pt;
+
+  font-size: 9pt;
+}
+
+.horizontal-list {
+  display: inline;
+
+  margin-top: 0;
+  margin-left: 0;
+
+  list-style-position: outside;
+
+  li {
+    display: inline;
+
+    padding-left: 0;
+
+    &:not(:last-child)::after {
+      content: " \2219 ";
+
+      display: inline;
+    }
+  }
+}
