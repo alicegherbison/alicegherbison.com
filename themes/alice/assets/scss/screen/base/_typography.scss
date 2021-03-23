@@ -122,8 +122,8 @@ a {
 
 /* stylelint-disable block-opening-brace-space-before */
 
-a[href^="http://"]:not([href*="www.alicegherbison.com"]):hover,
-a[href^="https://"]:not([href*="www.alicegherbison.com"]):hover
+a[href^="http://"]:not([href^="www.alicegherbison.com"]):hover,
+a[href^="https://"]:not([href^="www.alicegherbison.com"]):hover
 {
   cursor: ne-resize;
 
