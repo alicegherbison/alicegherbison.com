@@ -1,15 +1,15 @@
 :root {
-  --color-black: #191919;
-  --color-grey-dark: #2c292d;
-  --color-grey-mid: #aaaaaa;
-  --color-grey-light: #cccccc;
-  --color-lilac: #ab9df2;
-  --color-magenta: #ff6188;
-  --color-peach: #fc9867;
-  --color-lemon: #ffd866;
-  --color-lime: #a9dc76;
-  --color-cyan: #78dce8;
-  --color-straw: #fcfcfa;
+  --color-black: hsl(0, 0%, 10%);
+  --color-grey-dark: hsl(285, 5%, 17%);
+  --color-grey-mid: hsl(0, 0%, 67%);
+  --color-grey-light: hsl(0, 0%, 80%);
+  --color-lilac: hsl(250, 77%, 78%);
+  --color-magenta: hsl(345, 100%, 69%);
+  --color-peach: hsl(20, 96%, 70%);
+  --color-lemon: hsl(45, 100%, 70%);
+  --color-lime: hsl(90, 59%, 66%);
+  --color-cyan: hsl(186, 71%, 69%);
+  --color-straw: hsl(60, 25%, 98%);
 }
 
 $breakpoint: 800px;
