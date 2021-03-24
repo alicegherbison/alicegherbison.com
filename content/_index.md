@@ -17,10 +17,10 @@ I have a **MSc** in **human computer interaction** and an undergraduate degree i
 
 You can:
 
-* [find out more about this site](/site/)
-* [read my 'now' page](/now/)
-* [explore my cv](/cv/) (it's printable!)
-* or [check out the privacy policy](/privacy/) (a blast)
+- [find out more about this site](/site/)
+- [read my 'now' page](/now/)
+- [explore my cv](/cv/) (it's printable)
+- or [check out the privacy policy](/privacy/) (a blast)
 
 ---
 
