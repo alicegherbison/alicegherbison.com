@@ -7,5 +7,8 @@
   {{- block "header" . -}}{{- end -}}
   {{- block "main" . -}}{{- end -}}
   {{- partial "console-log.html" . -}}
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  {{- $map := resources.Get "js/map.js" | minify -}}
+<script src="{{- $map.Permalink -}}" type="text/javascript"></script>
 </body>
 </html>
