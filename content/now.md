@@ -7,9 +7,9 @@ title = "Now"
 
 _Last updated: {{< date >}}_
 
-## Online
+<!-- ## Online
 
-- working on [Introduction to GraphQL](https://github.com/alicegherbison/introduction-to-graphql) from [FrontendMasters](https://www.frontendmasters.com)
+- working on [Introduction to GraphQL](https://github.com/alicegherbison/introduction-to-graphql) from [FrontendMasters](https://www.frontendmasters.com) -->
 
 ## Offline
 
