@@ -1,11 +1,11 @@
 {{- define "header" -}}
-<header>
+<header {{ with .Params.wideLayout }}class="wide"{{ end }}>
   {{- partial "back.html" . -}}
 </header>
 {{- end -}}
 {{- define "main" -}}
-<main>
-  {{- partial "title.html" . -}}
+<main {{ with .Params.wideLayout }}class="wide"{{ end }}>
+  {{ with .Params.emoji.icon }}{{- partial "title.html" $ -}}{{ end }}
   {{- .Content -}}
 </main>
 {{- end -}}

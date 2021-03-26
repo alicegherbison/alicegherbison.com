@@ -1,9 +1,10 @@
 +++
 title = "Travel"
 draft = true
+wideLayout = true
 [emoji]
 	icon = "✈️"
-	label = "checkmark"
+	label = "aeroplane"
 +++
 
 {{< map >}}

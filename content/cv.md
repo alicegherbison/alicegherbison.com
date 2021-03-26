@@ -1,5 +1,7 @@
 +++
 title = "CV"
-type = "page"
-layout = "cv"
+smallFontSize = true
+wideLayout = true
 +++
+
+{{< cv >}}
