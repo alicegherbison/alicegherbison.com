@@ -30,3 +30,11 @@ function drawRegionsMap() {
 
   chart.draw(data, options);
 }
+
+window.addEventListener("load", function () {
+  window.dispatchEvent(new Event("resize"));
+});
+
+window.onresize = function () {
+  drawRegionsMap();
+};
