@@ -324,5 +324,5 @@
     <button onClick="window.print()">print me</button>
   </section>
 </div>
-{{- $script := resources.Get "js/script.js" | minify -}}
+{{- $script := resources.Get "js/print.js" | minify -}}
 <script src="{{- $script.Permalink -}}" type="text/javascript"></script>

@@ -1,1 +1,4 @@
 <div id="map" style="width: 100%; height: auto;"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+{{- $map := resources.Get "js/map.js" | minify -}}
+<script src="{{- $map.Permalink -}}" type="text/javascript"></script>
