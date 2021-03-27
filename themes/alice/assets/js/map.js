@@ -4,6 +4,10 @@ google.charts.load("current", {
 
 google.charts.setOnLoadCallback(drawMap);
 
+function addNBSP(string) {
+  return string.replace(/\s/g, "&nbsp;");
+}
+
 const travels = [
   {
     flag: "🇫🇷",
@@ -67,24 +71,20 @@ const travels = [
   },
 ];
 
+const visited = { 0: addNBSP("Want to visit"), 1: "Visited" };
+
+const array = travels.map(country => [
+  { v: country.value, f: "" },
+  country.visited,
+  `<h2 class="country"><span class="label">${visited[country.visited]}</span><span role="img" aria-label="Flag of${
+    country.isPlural ? ` the ` : ` `
+  }${country.value}">${country.flag}</span>&nbsp;${addNBSP(country.value)}</h2>`,
+]);
+
+array.unshift(["Country", "Visited", { p: { html: true }, role: "tooltip", type: "string" }]);
+
 function drawMap() {
-  const data = google.visualization.arrayToDataTable([
-    ["Country", "Visited", { p: { html: true }, role: "tooltip", type: "string" }],
-    [
-      { v: "United Kingdom", f: "" },
-      1,
-      `<h2 class="country"><span class="label">Visited</span><span role="img" aria-label="Flag of the United Kingdom">🇬🇧</span>&nbsp;United&nbsp;Kingdom</h2>`,
-    ],
-    ["Netherlands", 1, "🇳🇱"],
-    ["France", 1, "🇫🇷"],
-    ["Iceland", 1, "🇮🇸"],
-    ["Spain", 1, "🇪🇸"],
-    ["Italy", 1, "🇮🇹"],
-    ["Malaysia", 1, "🇲🇾"],
-    ["Thailand", 1, "🇹🇭"],
-    ["South Korea", 0, "🇰🇷"],
-    ["Philippines", 0, "🇵🇭"],
-  ]);
+  const data = google.visualization.arrayToDataTable(array);
 
   const options = {
     backgroundColor: { fill: "#2c292d" },
