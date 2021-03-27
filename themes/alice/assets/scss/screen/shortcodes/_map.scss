@@ -1,6 +1,54 @@
 div.google-visualization-tooltip {
   box-shadow: none;
-  border: 2px solid var(--color-lemon);
+  border: 0.2rem solid var(--color-lemon);
+  width: max-content;
+  padding: 1.4rem 2.2rem;
+
+  text-align: center;
 
   background-color: var(--color-grey-dark);
+}
+
+ul.google-visualization-tooltip-item-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+li.google-visualization-tooltip-item {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  &:first-child {
+    margin: 0 !important;
+  }
+}
+
+.label {
+  position: absolute;
+  top: -2.6rem;
+  left: 50%;
+
+  display: block;
+
+  padding: 0.4rem 1rem;
+
+  line-height: 1.2;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-grey-dark);
+
+  transform: translateX(-50%);
+
+  background-color: var(--color-lime);
+}
+
+.country {
+  position: relative;
 }
