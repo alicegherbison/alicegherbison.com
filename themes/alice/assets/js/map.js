@@ -1,13 +1,3 @@
-google.charts.load("current", {
-  packages: ["geochart"],
-});
-
-google.charts.setOnLoadCallback(drawMap);
-
-function addNBSP(string) {
-  return string.replace(/\s/g, "&nbsp;");
-}
-
 const travels = [
   {
     flag: "🇫🇷",
@@ -71,17 +61,17 @@ const travels = [
   },
 ];
 
-const visited = { 0: addNBSP("Want to visit"), 1: "Visited" };
-
-const array = travels.map(country => [
-  { v: country.value, f: "" },
-  country.visited,
-  `<h2 class="country"><span class="label">${visited[country.visited]}</span><span role="img" aria-label="Flag of${
-    country.isPlural ? ` the ` : ` `
-  }${country.value}">${country.flag}</span>&nbsp;${addNBSP(country.value)}</h2>`,
-]);
-
-array.unshift(["Country", "Visited", { p: { html: true }, role: "tooltip", type: "string" }]);
+const array = travels.map(country => {
+  return [
+    { v: country.value, f: "" },
+    country.visited,
+    `<h2 class="country"><span class="label${country.visited ? ` visited` : ``}">${
+      country.visited ? `Visited` : addNBSP("Want to visit")
+    }</span><span role="img" aria-label="Flag of${country.isPlural ? ` the ` : ` `}${country.value}">${
+      country.flag
+    }</span>&nbsp;${addNBSP(country.value)}</h2>`,
+  ];
+});
 
 function drawMap() {
   const data = google.visualization.arrayToDataTable(array);
@@ -98,6 +88,18 @@ function drawMap() {
 
   chart.draw(data, options);
 }
+
+function addNBSP(string) {
+  return string.replace(/\s/g, "&nbsp;");
+}
+
+array.unshift(["Country", "Visited", { p: { html: true }, role: "tooltip", type: "string" }]);
+
+google.charts.load("current", {
+  packages: ["geochart"],
+});
+
+google.charts.setOnLoadCallback(drawMap);
 
 window.addEventListener("load", function () {
   window.dispatchEvent(new Event("resize"));

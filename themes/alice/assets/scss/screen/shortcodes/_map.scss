@@ -1,6 +1,6 @@
 div.google-visualization-tooltip {
   box-shadow: none;
-  border: 0.2rem solid var(--color-lemon);
+  border: 0.2rem solid var(--color-straw);
   width: max-content;
   padding: 1.4rem 2.2rem;
 
@@ -46,9 +46,13 @@ li.google-visualization-tooltip-item {
 
   transform: translateX(-50%);
 
-  background-color: var(--color-lime);
+  background-color: var(--color-peach);
 }
 
 .country {
   position: relative;
+}
+
+.visited {
+  background-color: var(--color-lime);
 }
