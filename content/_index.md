@@ -9,9 +9,11 @@ I'm **Alice**, a **front-end developer** based in Edinburgh, Scotland.
 
 I'm highly **detailed-oriented, empathetic and passionate** about learning new skills and web technologies.
 
-My background is in user-centred interaction design of **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
+I build **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
 
-I work at [Ajenta](https://ajenta.net), building video conferencing web applications for the education sector in **React**.
+I'm currently **open to front-end opportunities** (remote or Edinburgh-based) using React and Typescript.
+
+My most recent experience has been building [Vscene](https://vscene.net/en-gb/), a video conferencing web/desktop application for the education sector.
 
 I have a **MSc** in **human computer interaction** and an undergraduate degree in psychology.
 
