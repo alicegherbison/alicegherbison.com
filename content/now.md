@@ -13,6 +13,7 @@ _Last updated: {{< date >}}_
 
 ## Offline
 
+- completing [The Conqueror](https://theconqueror.events/r/AH9997) running challenges
 - playing the piano
 - learning Korean
 

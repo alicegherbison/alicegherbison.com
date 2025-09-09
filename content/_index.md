@@ -11,9 +11,7 @@ I'm highly **detailed-oriented, empathetic and passionate** about learning new s
 
 I build **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
 
-I'm currently **open to front-end opportunities** (remote or Edinburgh-based) using React and Typescript.
-
-My most recent experience has been building [Vscene](https://vscene.net/en-gb/), a video conferencing web/desktop application for the education sector.
+My most recent experience is building [Vscene](https://vscene.net/en-gb/), a video conferencing web/desktop application for the education sector.
 
 I have a **MSc** in **human computer interaction** and an undergraduate degree in psychology.
 
