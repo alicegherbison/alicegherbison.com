@@ -1,18 +1,16 @@
 ---
 extends:
-  - stylelint-config-standard
+  - stylelint-config-standard-scss
 plugins:
   - stylelint-scss
   - stylelint-order
 rules:
-  indentation: 2
-  string-quotes: double
+  declaration-empty-line-before: null
   no-duplicate-selectors: true
   no-descending-specificity:
     - true
     - severity: warning
   at-rule-no-unknown:
-  color-hex-case: lower
   color-hex-length: long
   color-named:
     - never
@@ -23,43 +21,9 @@ rules:
   selector-max-id:
     - 0
     - severity: warning
-  selector-combinator-space-after: always
   selector-attribute-quotes: always
-  selector-attribute-operator-space-before: never
-  selector-attribute-operator-space-after: never
-  selector-attribute-brackets-space-inside: never
-  declaration-block-trailing-semicolon: always
   declaration-no-important:
     - true
-    - severity: warning
-  declaration-colon-newline-after:
-  declaration-colon-space-before: never
-  declaration-colon-space-after: always-single-line
-  declaration-empty-line-before:
-  declaration-property-unit-blacklist:
-    - font-size:
-        - em
-        - px
-      height:
-        - em
-        - px
-      "/^margin/":
-        - em
-        - px
-      min-height:
-        - em
-        - px
-      min-width:
-        - em
-        - px
-      "/^padding/":
-        - em
-        - px
-      stroke-width:
-        - px
-      width:
-        - em
-        - px
     - severity: warning
   property-no-vendor-prefix:
     - true
@@ -70,7 +34,6 @@ rules:
     - ignoreProperties:
         - "/^(--)/"
         - font-family
-  number-leading-zero: always
   function-url-quotes: always
   font-weight-notation: numeric
   font-family-name-quotes:
@@ -87,14 +50,8 @@ rules:
     - except:
         - first-nested
   selector-pseudo-element-colon-notation: double
-  selector-pseudo-class-parentheses-space-inside: never
   selector-no-vendor-prefix: true
-  media-feature-range-operator-space-before: always
-  media-feature-range-operator-space-after: always
-  media-feature-parentheses-space-inside: never
   media-feature-name-no-vendor-prefix: true
-  media-feature-colon-space-before: never
-  media-feature-colon-space-after: always
   scss/at-rule-no-unknown: true
   order/order:
     - custom-properties

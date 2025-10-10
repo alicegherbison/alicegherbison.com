@@ -1,15 +1,15 @@
 :root {
-  --color-black: hsl(0, 0%, 10%);
-  --color-grey-dark: hsl(285, 5%, 17%);
-  --color-grey-mid: hsl(0, 0%, 67%);
-  --color-grey-light: hsl(0, 0%, 80%);
-  --color-lilac: hsl(250, 77%, 78%);
-  --color-magenta: hsl(345, 100%, 69%);
-  --color-peach: hsl(20, 96%, 70%);
-  --color-lemon: hsl(45, 100%, 70%);
-  --color-lime: hsl(90, 59%, 66%);
-  --color-cyan: hsl(186, 71%, 69%);
-  --color-straw: hsl(60, 25%, 98%);
+  --color-black: hsl(0deg 0% 10%);
+  --color-grey-dark: hsl(285deg 5% 17%);
+  --color-grey-mid: hsl(0deg 0% 67%);
+  --color-grey-light: hsl(0deg 0% 80%);
+  --color-lilac: hsl(250deg 77% 78%);
+  --color-magenta: hsl(345deg 100% 69%);
+  --color-peach: hsl(20deg 96% 70%);
+  --color-lemon: hsl(45deg 100% 70%);
+  --color-lime: hsl(90deg 59% 66%);
+  --color-cyan: hsl(186deg 71% 69%);
+  --color-straw: hsl(60deg 25% 98%);
 }
 
 $breakpoint: 800px;

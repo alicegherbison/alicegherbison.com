@@ -25,6 +25,7 @@ li.google-visualization-tooltip-item {
   list-style: none;
 
   &:first-child {
+    /* stylelint-disable-next-line declaration-no-important */
     margin: 0 !important;
   }
 }
