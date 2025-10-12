@@ -5,15 +5,11 @@ title = "Hello"
 	label = "wave"
 +++
 
-I'm **Alice**, a **front-end developer** based in Edinburgh, Scotland.
+My name is **Alice** and I'm a **front-end engineer** based in Edinburgh, Scotland. This is my personal website.
 
-I'm highly **detailed-oriented, empathetic and passionate** about learning new skills and web technologies.
+Most recently, I worked at [i-immersive](https://www.i-immersive.co.uk), building [ClassView](https://app.classview.com), a video conferencing web/desktop application for the education sector.
 
-I build **accessible, responsive and friendly** interfaces that meet both **user and client needs**.
-
-My most recent experience is building [Vscene](https://vscene.net/en-gb/), a video conferencing web/desktop application for the education sector.
-
-I have a **MSc** in **human computer interaction** and an undergraduate degree in psychology.
+I have an **MSc** in **human computer interaction** and an undergraduate degree in psychology.
 
 You can:
 
