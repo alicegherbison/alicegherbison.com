@@ -36,33 +36,14 @@
 }
 
 html {
+  padding-left: calc(100vw - 100%);
+
   font-size: 62.5%;
-
-  &::before,
-  &::after {
-    content: "";
-
-    position: fixed;
-    top: 0;
-    bottom: 0;
-
-    width: 0.8rem;
-  }
-
-  &::before {
-    left: 0;
-
-    background-color: var(--color-magenta);
-  }
-
-  &::after {
-    right: 0;
-
-    background-color: var(--color-cyan);
-  }
 }
 
 body {
+  padding: 3rem 2rem;
+
   letter-spacing: 0.07rem;
 
   line-height: 1.8;
@@ -71,33 +52,6 @@ body {
   color: var(--color-grey-light);
 
   background-color: var(--color-grey-dark);
-
-  &::before,
-  &::after {
-    content: "";
-
-    position: fixed;
-    left: 0;
-    right: 0;
-
-    height: 0.8rem;
-
-    background-image: linear-gradient(
-      to right,
-      var(--color-magenta),
-      var(--color-lemon),
-      var(--color-lime),
-      var(--color-cyan)
-    );
-  }
-
-  &::before {
-    top: 0;
-  }
-
-  &::after {
-    bottom: 0;
-  }
 }
 
 img {
