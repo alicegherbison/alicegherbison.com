@@ -1,11 +1,8 @@
 +++
 title = "About this site"
-[emoji]
-	icon = "💻"
-	label = "computer"
 +++
 
-*Last build: {{< build-date >}}*
+_Last build: {{< build-date >}}_
 
 This site is built with every design and code decision meeting the following two principles:
 
@@ -14,11 +11,11 @@ This site is built with every design and code decision meeting the following two
 
 ## Overview
 
-* Statically generated
-* Source publicly stored &amp; available on [GitHub](https://www.github.com/alicegherbison)
-* Served via a CDN, over HTTPS &amp; HTTP/2
-* Minified
-* Built with a pipeline tool
+- Statically generated
+- Source publicly stored &amp; available on [GitHub](https://www.github.com/alicegherbison)
+- Served via a CDN, over HTTPS &amp; HTTP/2
+- Minified
+- Built with a pipeline tool
 
 ## Details
 

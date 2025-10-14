@@ -1,9 +1,6 @@
 +++
 title = "Completed"
 draft = true
-[emoji]
-	icon = "✅"
-	label = "checkmark"
 +++
 
 A log of small fun projects and any online tech courses.
@@ -23,6 +20,7 @@ Hosted on Netlify. Uses Gulp, ES6, Sass and environment variables (locally and o
 ## Courses
 
 ### Javascript30
+
 _Wes Bos_
 
 [demo](https://alicegherbison.github.io/javascript30) | [repo](https://github.com/alicegherbison/cinema)
@@ -30,6 +28,7 @@ _Wes Bos_
 30-day JavaScript challenge building 30 things in vanilla JS without any frameworks or libraries.
 
 ### ES6 for Everyone
+
 _Wes Bos_
 
 [repo](https://github.com/alicegherbison/es6)
@@ -37,6 +36,7 @@ _Wes Bos_
 Online tutorials covering latest ES6 syntax with examples worked through.
 
 ### React for Beginners
+
 _Wes Bos_
 
 [repo](https://github.com/alicegherbison/catch-of-the-day)
@@ -44,6 +44,7 @@ _Wes Bos_
 Built an inventory app in React, covered all aspects of React and learned how to use Firebase as a database source.
 
 ### Responsive Web Design Certification
+
 _freeCodeCamp_
 
 [porfolio](https://codepen.io/alicegh/full/QzOaqq) | [certificate](https://www.freecodecamp.org/certification/alicegh/responsive-web-design)

@@ -1,8 +1,5 @@
 +++
 title = "Privacy"
-[emoji]
-	icon = "👀"
-	label = "eyes"
 +++
 
 This website uses Google Analytics, deployed via Google Tag Manager, to understand how visitors browse this site through metrics such as page hits, landing pages, and referrer information.
