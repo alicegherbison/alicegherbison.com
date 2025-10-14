@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-{{- "<!-- if you're snoopin', why not take a sneaky peak at my github?: https://www.github.com/alicegherbison -->" | safeHTML -}}
+<!DOCTYPE html> {{- "<!-- if you're snoopin', why not take a sneaky peak at my github?: https://www.github.com/alicegherbison -->"
+| safeHTML -}}
 <html lang="{{- .Site.LanguageCode -}}">
-{{- partial "head.html" . -}}
-<body>
-  {{- partial "analytics-noscript.html" . -}}
-  {{- block "header" . -}}{{- end -}}
-  {{- block "main" . -}}{{- end -}}
-  {{- partial "console-log.html" . -}}
-</body>
+  {{- partial "head.html" . -}}
+  <body>
+    {{- partial "analytics-noscript.html" . -}} {{- partial "header.html" . -}} {{- block "header" . -}}{{- end -}} {{-
+    block "main" . -}}{{- end -}} {{- partial "footer.html" . -}} {{- partial "console-log.html" . -}}
+  </body>
 </html>
