@@ -1,6 +1,7 @@
 /* stylelint-disable no-descending-specificity */
 
 h1 {
+  line-height: 1.4;
   font-size: 4rem;
   font-weight: 700;
   color: var(--color-straw);
@@ -63,6 +64,8 @@ h4 {
 p {
   margin-top: 1.8rem;
 
+  line-height: 1.6;
+
   &:first-child {
     margin-top: 0;
   }
@@ -70,6 +73,10 @@ p {
   & + ul {
     margin-top: 0.5rem;
   }
+}
+
+small {
+  font-size: 1.4rem;
 }
 
 ul {
@@ -104,10 +111,10 @@ li {
 }
 
 a {
-  border-bottom: 0.2rem solid var(--color-lilac);
+  border-bottom: 0.2rem solid var(--color-grey-mid);
 
   font-weight: 700;
-  color: var(--color-lilac);
+  color: var(--color-straw);
 
   text-decoration: none;
 
