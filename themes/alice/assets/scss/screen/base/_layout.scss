@@ -1,17 +1,55 @@
 header,
-main {
-  max-width: 54rem;
-  padding: 0 1.8rem;
+main,
+footer {
+  margin: 0 auto;
+  max-width: 80rem;
 }
 
 header {
-  margin: 0 auto;
-  padding: 4rem 3rem 0;
+  display: flex;
+
+  justify-content: space-between;
+
+  nav ul {
+    display: flex;
+
+    gap: 2.4rem;
+
+    margin: 0;
+
+    list-style-type: none;
+
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  a {
+    border-bottom: none;
+
+    font-weight: 400;
+    color: var(--color-grey-mid);
+
+    &:hover {
+      color: var(--color-lilac);
+    }
+
+    &.active {
+      font-weight: 700;
+      color: var(--color-straw);
+    }
+  }
 }
 
 main {
-  margin: 0 auto;
-  padding: 4rem 3rem;
+  padding-top: 4rem;
+}
+
+footer {
+  margin-top: 4rem;
+  border-top: 0.1rem solid var(--color-grey-mid);
+  padding-top: 2rem;
 }
 
 .wide {
