@@ -3,7 +3,7 @@
 <html lang="{{- .Site.LanguageCode -}}">
   {{- partial "head.html" . -}}
   <body>
-    {{- partial "analytics-noscript.html" . -}} {{- partial "header.html" . -}} {{- block "header" . -}}{{- end -}} {{-
-    block "main" . -}}{{- end -}} {{- partial "footer.html" . -}} {{- partial "console-log.html" . -}}
+    {{- partial "analytics-noscript.html" . -}} {{- partial "header.html" . -}} {{- block "main" . -}}{{- end -}} {{-
+    partial "footer.html" . -}} {{- partial "console-log.html" . -}}
   </body>
 </html>
