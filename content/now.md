@@ -9,8 +9,8 @@ _Last updated: {{< date >}}_
 
 ## Offline
 
-- completing [The Conqueror](https://theconqueror.events/r/AH9997) Jesus Trail running challenge (70km)
+- completing {{< external-link href="https://theconqueror.events/r/AH9997" text="The Conqueror">}} Jesus Trail running challenge (70km)
 - re-visiting Yonsei Korean Language Institute textbooks
-- [reading](https://www.goodreads.com/review/list/144455045?shelf=currently-reading) _Games at Twilight: And Other Stories_ by Anita Desai
+- {{< external-link href="https://www.goodreads.com/review/list/144455045?shelf=currently-reading" text="reading">}} _Games at Twilight: And Other Stories_ by Anita Desai
 
-This page is inspired by the [Now Project](https://nownownow.com/about).
+This page is inspired by the {{< external-link href="https://nownownow.com/about" text="Now Project">}}.
