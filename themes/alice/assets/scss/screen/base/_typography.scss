@@ -1,43 +1,28 @@
 /* stylelint-disable no-descending-specificity */
 
 h1 {
-  line-height: 1.4;
   font-size: 4rem;
   font-weight: 700;
   color: var(--color-straw);
-
-  &:first-child {
-    margin-top: 0;
-  }
 }
 
 h2 {
-  margin-top: 2rem;
-
   font-size: 2.4rem;
   font-weight: 700;
   color: var(--color-straw);
 
-  &:first-child {
-    margin-top: 0;
-  }
-
-  & + p,
-  & + ol,
-  & + ul {
-    margin-top: 0.5rem;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 h3 {
-  margin-top: 1.8rem;
-
   font-size: 2rem;
   font-weight: 700;
   color: var(--color-straw);
 
-  &:first-child {
-    margin-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 
   & + p,
@@ -48,65 +33,70 @@ h3 {
 }
 
 h4 {
-  margin-top: 1.6rem;
-
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--color-straw);
 
-  & + p,
-  & + ol,
-  & + ul {
-    margin-top: 0.5rem;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 p {
-  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
 
-  line-height: 1.6;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+dt {
+  break-after: avoid;
+
+  margin-top: 1rem;
+
+  font-weight: 700;
+  color: var(--color-straw);
 
   &:first-child {
     margin-top: 0;
-  }
-
-  & + ul {
-    margin-top: 0.5rem;
   }
 }
 
 small {
+  display: block;
+
   font-size: 1.4rem;
 }
 
 ul {
-  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
   margin-left: 1.8rem;
 
   list-style: circle outside;
 
-  &:first-child {
-    margin-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 ol {
-  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
   margin-left: 1.8rem;
 
   list-style: decimal outside;
 
-  &:first-child {
-    margin-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 li {
-  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
   padding-left: 0.9rem;
 
-  &:first-child {
-    margin-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
