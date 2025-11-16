@@ -32,8 +32,7 @@
 
 .block {
   margin-top: 1.2rem;
-  border-left: 0.5rem solid var(--color-lilac);
-  padding: 2.4rem;
+  padding: 1.8rem 2.2rem;
 
   background: var(--color-black);
 }
@@ -63,6 +62,7 @@
 }
 
 .skill-group {
+  margin-top: 0;
   padding-left: 0;
 }
 
