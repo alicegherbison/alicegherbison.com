@@ -1,11 +1,19 @@
 .cv {
   a {
-    border-bottom: 1pt solid var(--color-black);
+    border-bottom: 1pt solid var(--color-grey-mid);
 
     font-weight: 700;
     color: var(--color-black);
 
     text-decoration: none;
+  }
+
+  section {
+    margin-bottom: 12pt;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   summary {
@@ -22,11 +30,21 @@
 }
 
 .block {
-  margin-top: 11pt;
+  margin-bottom: 14pt;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .intro {
   text-align: center;
+}
+
+.about {
+  padding: 5pt 8pt;
+
+  background-color: var(--color-grey-extra-light);
 }
 
 .skills {
@@ -37,32 +55,6 @@
   list-style-type: none;
 }
 
-.skill-group-title {
-  display: inline;
-
-  margin-top: 0;
-  margin-right: 4pt;
-
-  font-size: 9pt;
-}
-
-.horizontal-list {
-  display: inline;
-
-  margin-top: 0;
-  margin-left: 0;
-
-  list-style-position: outside;
-
-  li {
-    display: inline;
-
-    padding-left: 0;
-
-    &:not(:last-child)::after {
-      content: " \2219 ";
-
-      display: inline;
-    }
-  }
+.date {
+  color: var(--color-grey-dark);
 }

@@ -3,81 +3,77 @@
 h1 {
   margin-bottom: 4pt;
 
-  letter-spacing: 1pt;
-
-  font-size: 19pt;
+  font-size: 20pt;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 h2 {
-  margin-top: 12pt;
-  border-bottom: 1pt solid var(--color-black);
+  margin-bottom: 7pt;
+  border-bottom: 2pt solid var(--color-black);
 
-  letter-spacing: 1pt;
-
-  font-size: 13pt;
-  text-transform: uppercase;
+  font-size: 18pt;
 }
 
 h3 {
-  margin-top: 11pt;
-
-  font-size: 11pt;
-
-  & + p,
-  & + ul {
-    margin-top: 5pt;
-  }
+  font-size: 14pt;
 }
 
 h4 {
-  margin-top: 7pt;
-
   font-size: 9pt;
-
-  & + p,
-  & + ul {
-    margin-top: 2pt;
-  }
 }
 
 p {
-  margin-top: 8pt;
+  margin-bottom: 8pt;
 
-  &:first-child {
-    margin-top: 0;
-  }
-
-  & + ul {
-    margin-top: 5pt;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
-ol {
-  margin-top: 8pt;
+dt {
+  break-after: avoid;
+
+  margin-top: 5pt;
+
+  font-size: 9pt;
+  font-weight: 700;
+  color: var(--color-straw);
 
   &:first-child {
     margin-top: 0;
+  }
+}
+
+dd {
+  font-size: 9pt;
+}
+
+ol {
+  margin-bottom: 8pt;
+
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 ul {
-  margin-top: 8pt;
+  margin-bottom: 8pt;
   margin-left: 12pt;
   padding: 0;
 
   list-style: circle outside;
 
-  &:first-child {
-    margin-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 li {
-  margin-top: 2pt;
+  margin-bottom: 2pt;
   padding-left: 2pt;
 
-  &:first-child {
-    margin-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 }

@@ -24,12 +24,6 @@ h3 {
   &:last-child {
     margin-bottom: 0;
   }
-
-  & + p,
-  & + ol,
-  & + ul {
-    margin-top: 0.5rem;
-  }
 }
 
 h4 {
