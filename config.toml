@@ -2,21 +2,21 @@ baseURL = "https://www.alicegherbison.com/"
 defaultContentLanguage = "en"
 languageCode = "en-GB"
 title = "Alice G Herbison"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 theme = "alice"
 
 [params]
-	author = "Alice G Herbison"
-	description = "Website of Alice G Herbison, front-end developer based in Edinburgh, Scotland."
-	tags = "react, html, css, javascript, ux, design, redux"
+author = "Alice G Herbison"
+description = "Website of Alice G Herbison, front-end developer based in Edinburgh, Scotland."
+tags = "react, html, css, javascript, ux, design, redux"
 
 [languages]
-	[languages.en]
-		title = "Alice G Herbison"
-		weight = 1
-		languageName = "English"
+[languages.en]
+title = "Alice G Herbison"
+weight = 1
+languageName = "English"
 
 [blackfriday]
- 	plainIDAnchors = true
- 	hrefTargetBlank = true
-	noreferrerLinks = true
+plainIDAnchors = true
+hrefTargetBlank = true
+noreferrerLinks = true
