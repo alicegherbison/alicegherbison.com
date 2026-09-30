@@ -10,4 +10,4 @@ This site is built and statically generated using {{< external-link href="https:
 
 It {{< external-link href="http://wave.webaim.org/report#/https://www.alicegherbison.com/" text="meets WCAG 2.0 AAA criteria" >}} and {{< external-link href="https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fwww.alicegherbison.com%2F" text="validates by W3C with no errors" >}}.
 
-No artificial intelligence was used in the creation of this site.
+No artificial intelligence was used in the creation of this site. Just the precarious human kind.
